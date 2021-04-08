@@ -1,7 +1,7 @@
 ---
 title: "Denied"
 date: 2021-04-07T12:50:46-04:00
-draft: true
+draft: false
 ---
 I _thought_ I was going to receive my second Pfizer vaccine today.  I showed up
 on time with my documentation, and handed it over to the lady behind the

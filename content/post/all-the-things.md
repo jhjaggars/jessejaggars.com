@@ -1,7 +1,7 @@
 ---
 title: "All the Things"
 date: 2021-04-06T16:29:13-04:00
-draft: true
+draft: false
 ---
 For as long as I can remember, I've suffered from a condition where I assume
 that if *I* know something, everyone else must know it too.

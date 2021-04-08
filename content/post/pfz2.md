@@ -1,7 +1,7 @@
 ---
 title: "Pfizer dose #2 incoming"
 date: 2021-04-05T11:38:18-04:00
-draft: true
+draft: false
 ---
 I'll receive my second dose of the Pfizer Sars-Cov-2 vaccine on Wednesday and
 I'm feeling pretty mixed about it.
