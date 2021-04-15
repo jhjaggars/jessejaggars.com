@@ -2,6 +2,8 @@
 title: "Try Again"
 date: 2021-04-09T08:18:12-04:00
 draft: false
+description: "No really, it's happening this time..."
+tags: [Covid]
 ---
 
 In a few minutes I'll be traveling back to Dunn to get my second dose

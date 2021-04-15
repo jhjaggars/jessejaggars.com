@@ -10,3 +10,13 @@ url = "https://github.com/jhjaggars"
 
 [Params]
 avatar = "https://avatars.githubusercontent.com/u/24389?v=4"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 2
