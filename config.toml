@@ -1,4 +1,4 @@
-baseURL = "http://jessejaggars.com/"
+baseURL = "https://jessejaggars.com/"
 languageCode = "en-us"
 title = "The Manual"
 theme = "hugo-ink"
