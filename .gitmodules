@@ -1,6 +1,12 @@
-[submodule "themes/hugo-ink"]
-	path = themes/hugo-ink
-	url = https://github.com/knadh/hugo-ink.git
 [submodule "themes/PaperMod"]
 	path = themes/PaperMod
 	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "themes/hugo-theme-texify"]
+	path = themes/hugo-theme-texify
+	url = https://github.com/queensferryme/hugo-theme-texify.git
+[submodule "themes/bare"]
+	path = themes/bare
+	url = https://github.com/orf/bare-hugo-theme.git
+[submodule "themes/hugo-theme-yue"]
+	path = themes/hugo-theme-yue
+	url = https://github.com/CyrusYip/hugo-theme-yue

@@ -17,7 +17,7 @@ Building [my own Boinc container](https://github.com/jhjaggars/boinc) turned out
 
 The Containerfile looks like this (btw, I learned [how to make smaller fedora-based images](https://fedoramagazine.org/build-smaller-containers/) over at [Fedora Magazine](https://fedoramagazine.org)):
 
-```
+```docker
 FROM registry.fedoraproject.org/fedora-minimal:40
 
 RUN microdnf install -y \
@@ -36,7 +36,7 @@ CMD ["/bin/sh", "/run.sh"]
 
 The resulting PodSpec looks kind of like this:
 
-```
+```yaml
       containers:
         - name: boinc
           image: quay.io/jhjaggars/boinc:latest
@@ -66,7 +66,7 @@ One of the things I wanted immediately was to monitor my progress.  I found [thi
 
 Adding my new exporter as a sidecar looks like this:
 
-```
+```yaml
       initContainers:
         - name: metrics-exporter
           image: quay.io/jhjaggars/boinc-exporter:latest
@@ -84,7 +84,7 @@ Adding my new exporter as a sidecar looks like this:
 
 And the PodMonitor I'm using to scrape said sidecar looks like this:
 
-```
+```yaml
 apiVersion: monitoring.coreos.com/v1
 kind: PodMonitor
 metadata:
@@ -111,7 +111,7 @@ In order to get my boinc container to utilize the onboard gpu I needed to add th
 
 I added the following to the Pod Spec:
 
-```
+```yaml
 ...
         limits:
           gpu.intel.com/i915: "1"
@@ -125,7 +125,7 @@ I wanted to run the boinc client on all of my nuc machines so I scaled my initia
 
 My manifest looks like this now:
 
-```
+```yaml
 apiVersion: apps/v1
 kind: StatefulSet
 metadata:
@@ -195,6 +195,6 @@ spec:
             storage: 1Gi
 ```
 
-# join the team
+# Join the Team
 
 I thought it'd be fun to start a team and Adam agreed so we are now working together as the ['grouchy nerds'](https://www.worldcommunitygrid.org/team/viewTeamInfo.do?teamId=33X5Z8GRL2) on worldcommunitygrid.  Feel free to join and share your progress to make the numbers go up! 

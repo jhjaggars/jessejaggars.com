@@ -1,7 +1,10 @@
 baseURL = "https://jessejaggars.com/"
 languageCode = "en-us"
 title = "The Manual"
-theme = "PaperMod"
+# theme = "PaperMod"
+# theme = "hugo-theme-texify"
+# theme = "bare"
+theme = "hugo-theme-yue"
 
 [[params.social]]
 name = "Github"
