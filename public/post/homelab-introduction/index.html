@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html class="html" lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Homelab Introduction | The Manual</title>
+<link rel="icon" href="/favicon.ico" />
+
+<meta name="description" content="So, I guess I have a homelab now # Over the past couple of years I have collected some computing devices and put them to use doing various self-hosting things and some educational stuff as well. The goal of this post is to give a broad overview of what I’ve been up to and some of my motivations that led me to where I am now.
+Home Automation # I think it’s fair to say the first ‘full-time’ self-hosted thing I launched was a server to run Home Assistant.">
+<meta property="og:url" content="http://localhost:1313/post/homelab-introduction/">
+  <meta property="og:site_name" content="The Manual">
+  <meta property="og:title" content="Homelab Introduction">
+  <meta property="og:description" content="So, I guess I have a homelab now # Over the past couple of years I have collected some computing devices and put them to use doing various self-hosting things and some educational stuff as well. The goal of this post is to give a broad overview of what I’ve been up to and some of my motivations that led me to where I am now.
+Home Automation # I think it’s fair to say the first ‘full-time’ self-hosted thing I launched was a server to run Home Assistant.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2024-08-02T13:27:45-04:00">
+    <meta property="article:modified_time" content="2024-08-02T13:27:45-04:00">
+
+
+  <meta itemprop="name" content="Homelab Introduction">
+  <meta itemprop="description" content="So, I guess I have a homelab now # Over the past couple of years I have collected some computing devices and put them to use doing various self-hosting things and some educational stuff as well. The goal of this post is to give a broad overview of what I’ve been up to and some of my motivations that led me to where I am now.
+Home Automation # I think it’s fair to say the first ‘full-time’ self-hosted thing I launched was a server to run Home Assistant.">
+  <meta itemprop="datePublished" content="2024-08-02T13:27:45-04:00">
+  <meta itemprop="dateModified" content="2024-08-02T13:27:45-04:00">
+  <meta itemprop="wordCount" content="665">
+
+
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body class="body">
+  <header class="header">
+    <h1>The Manual</h1>
+  <nav class="menu language">
+    <ul class="menu__list language__list">
+    <li class="menu__item">
+      <a class="menu__link" href="/">Home</a>
+    </li>
+    <li class="menu__item">
+      <a class="menu__link" href="/tags">Tags</a>
+    </li>
+</ul>
+  </nav>
+
+  </header>
+  <main class="main">
+    
+  <h1>Homelab Introduction</h1>
+  
+  <time class="published-date" datetime="2024-08-02T13:27:45-04:00">2024-08-02</time>
+  
+
+  
+
+
+
+
+  <details class="toc">
+    <summary class="toc__summary">Table of Contents</summary>
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#home-automation">Home Automation</a></li>
+        <li><a href="#network-attached-storage">Network Attached Storage</a></li>
+        <li><a href="#compute">Compute</a></li>
+        <li><a href="#racking">Racking</a></li>
+        <li><a href="#power">Power</a></li>
+        <li><a href="#networking">Networking</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </details>
+
+  <h1 class="heading" id="so-i-guess-i-have-a-homelab-now">
+  So, I guess I have a homelab now<span class="heading__anchor"> <a href="#so-i-guess-i-have-a-homelab-now">#</a></span>
+</h1><p>Over the past couple of years I have collected some computing devices and put them to use doing various self-hosting things and some educational stuff as well.  The goal of this post is to give a broad overview of what I&rsquo;ve been up to and some of my motivations that led me to where I am now.</p>
+<h3 class="heading" id="home-automation">
+  Home Automation<span class="heading__anchor"> <a href="#home-automation">#</a></span>
+</h3><p>I think it&rsquo;s fair to say the first &lsquo;full-time&rsquo; self-hosted thing I launched was a server to run <a href="https://www.home-assistant.io">Home Assistant</a>.  I used a raspberry pi 4 and the <a href="https://www.home-assistant.io/installation/#diy-with-raspberry-pi">diy image</a> running on a small thumb drive.  I remember reading somewhere that the speed differences between usb3 and the sdcard interface would be noticible so that&rsquo;s why I went that route.</p>
+<p>I built up a small collection of iot devices and managed them all via Home Assistant.  I also utilized the homekit bridge integration to present a subset of devices to the Home app on my wife and I&rsquo;s iPhones.  We are still making good use of Home Assistant today.</p>
+<h3 class="heading" id="network-attached-storage">
+  Network Attached Storage<span class="heading__anchor"> <a href="#network-attached-storage">#</a></span>
+</h3><p>At some point around 2016 or so I picked up a <a href="">Dell T30</a> with the intention of running some VM stuff for work.  It had been sitting mostly unused for years when I decided to try out <a href="">TrueNAS</a>.  I added a couple 4 TB disks and installed TrueNAS and have been running it ever since.  We used this system as a backup target for our personal laptops initially, and now I use it for all sorts of stuff which I&rsquo;ll get to later.  At one point I decided to upgrade from Core to Scale and I thought the upgrade process was magical.  I&rsquo;ve made a <a href="">couple of upgrades</a> to make the system even more useful for remote clients.  There are a couple of downsides to this system though, the form factor and the lack of disk capacity are eventually going to limit the usefulness of this system.</p>
+<h3 class="heading" id="compute">
+  Compute<span class="heading__anchor"> <a href="#compute">#</a></span>
+</h3><p>I got a good deal on an 11th generation Intel NUC on ebay and installed <a href="">Proxmox</a> on it.  I quickly decided I wanted to try managing a few more machines and built a system around a [free ryzen 3800xt] one of my friends gave me.  I ran a 2 node Proxmox cluster for a while, until I found another NUC at a great price on ebay, which allowed me to expand to 3 nodes.</p>
+<p>Along the way, I set up <a href="">K3S</a> on top of VMs and have been on that journey ever since.</p>
+<p>I got very excited by the meteor lake mobile processors from Intel and grabbed a new ASROCK 155H system and included it in my setup later.  Notable for this system is that I added it as a bare metal worker node for my k8s cluster, and I did not install ProxMox on it.</p>
+<h3 class="heading" id="racking">
+  Racking<span class="heading__anchor"> <a href="#racking">#</a></span>
+</h3><p>I have a 15U rack that I have been putting most of my equipment into.  I decided on this because it fits nicely under my workbench in my office and it is open and easy to work with.  I&rsquo;ve added an <a href="">8-port KVM switch</a> and a very useful <a href="">rackmount KVM</a> from Ebay.  Prior to this I was using a <a href="">4 port EzCoo KVM switch</a> and a portable monitor as a sort of crash cart.  Once I moved beyond 4 physical machines I decided to go with the current setup.</p>
+<h3 class="heading" id="power">
+  Power<span class="heading__anchor"> <a href="#power">#</a></span>
+</h3><p>I have a total of 3 UPS devices.  One for my workstation, one for the rack, and one for the network equipment.  I acquired the workstation UPS many years ago and I <a href="">replaced the battery</a> recently to keep it working well.  I <a href="">monitor</a> all of the devices with Network UPS tools.</p>
+<h3 class="heading" id="networking">
+  Networking<span class="heading__anchor"> <a href="#networking">#</a></span>
+</h3><p>I started with a mesh wifi setup from <a href="">Eero</a>, then expanded to a small desktop switch in my office, then to a <a href="">Unifi UDM Pro</a> and <a href="">more switches</a>.  I&rsquo;ve recently consolidated down to two switches, and enabled 2.5GbE networking across the house.</p>
+
+  
+
+  
+
+  
+  <nav class="page-nav">
+      <a class="page-nav__previous-link" href="/post/boinc/">Prev: Boinc</a>
+      <a class="page-nav__next-link" href="/post/truenas-backup/">Next: Truenas Backup</a>
+  </nav>
+
+  
+
+  </main>
+  <footer class="footer">
+    
+<p class="footer__copyright-notice">&copy; 2024 </p>
+<p class="footer__theme-info">Built with <a href='https://gohugo.io'>Hugo</a> and <a href='https://github.com/CyrusYip/hugo-theme-yue'>Yue</a></p>
+  </footer>
+</body>
+</html>
