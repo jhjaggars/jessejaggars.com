@@ -4,15 +4,35 @@ date: 2024-08-11T15:38:28-04:00
 draft: true
 ---
 
-My friend Adam was telling me about worldcommunitygrid the other day (write a little about what that is).  It reminded me of [distributed.net](https://distributed.net), with arguably nobler causes behind the project.  I have a good chunk of unused cpu and gpu capacity laying around so I decided I'd set up the [boinc client]() on my homelab.
+My friend Adam was telling me about [World Community Grid](https://www.worldcommunitygrid.org) the other day, which is a program for performing distributed research projects by allowing anyone to donate otherwise unused computing power to the program.  It reminds me of [distributed.net](https://distributed.net), with arguably nobler causes behind the project.  I have a good chunk of unused cpu and gpu capacity laying around so I decided I'd set up the [boinc client](https://boinc.berkeley.edu/) on my homelab.
 
-# linuxservers
+Boinc is essentially a client program that enrolls your computer as a worker in a project like World Community Grid and coordinates the work on your system. 
+# Getting Started
 
-I started by running a [copy of the container](https://github.com/linuxserver/docker-boinc) over at [linuxserver](https://www.linuxserver.io/) and that worked well for getting my feet wet.  It runs a _lot_ of stuff I don't really want or need and I wasn't sure how I could automatically join the pod to my account.  Adam showed me how he configures his machines to get to work so I decided I needed to do something similar for my setup.
+I started by running a [copy of the container](https://github.com/linuxserver/docker-boinc) over at [linuxserver](https://www.linuxserver.io/) and that worked well for getting my feet wet.  However, it runs a _lot_ of stuff I don't really want or need and I wasn't sure how I could automatically join the pod to my account.  Adam showed me how he configures his machines to get to work so I decided I needed to do something similar for my setup. Inspired by [Adam's ansible task](https://github.com/maxamillion/maxible/blob/main/roles/worldcommunitygrid/tasks/main.yml#L21-L28), I set out to [build my own container](https://github.com/jhjaggars/boinc) and run it. 
 
-# make my own container
+# Building my own container
 
-Inspired by [Adam's ansible task](https://github.com/maxamillion/maxible/blob/main/roles/worldcommunitygrid/tasks/main.yml#L21-L28), I set out to [build my own container](https://github.com/jhjaggars/boinc) and run it.  It turned out to be really simple.  You can find it under [my personal quay.io account](https://quay.io/jhjaggars/boinc).
+Building [my own Boinc container](https://github.com/jhjaggars/boinc) turned out to be really simple.  You can find it under [my personal quay.io account](https://quay.io/jhjaggars/boinc).
+
+The Containerfile looks like this (btw, I learned [how to make smaller fedora-based images](https://fedoramagazine.org/build-smaller-containers/) over at [Fedora Magazine](https://fedoramagazine.org)):
+
+```
+FROM registry.fedoraproject.org/fedora-minimal:40
+
+RUN microdnf install -y \
+	boinc-client \
+	intel-opencl \
+	clinfo \
+	--nodocs \
+	--setopt install_weak_deps=0 \
+	&& microdnf clean all -y
+
+COPY run.sh /run.sh
+
+CMD ["/bin/sh", "/run.sh"]
+
+```
 
 The resulting PodSpec looks kind of like this:
 
@@ -31,6 +51,8 @@ The resulting PodSpec looks kind of like this:
             value: "www.worldcommunitygrid.org"
           - name: BOINC_ACCOUNT_KEY
             value: "1169799_9ee82bab35a6ad9683c654aabfd8882b"
+          - name: BOINC_DATA_DIR
+            value: "/boinc-data"
           volumeMounts:
           - name: data
             mountPath: /boinc-data
@@ -38,7 +60,7 @@ The resulting PodSpec looks kind of like this:
 
 That `ACCOUNT_KEY` is a so-called _weak_ key that can only be used to add machines to my account.  So it's not really sensitive, and if you really want to spend your cpu cycles to credit my account, go right ahead :).
 
-# observability
+# Observability
 
 One of the things I wanted immediately was to monitor my progress.  I found [this project](https://gitlab.com/ordaa/boinc_exporter) from a [reddit post](https://www.reddit.com/r/BOINC/comments/lpb0tz/monitor_your_boinc_installations_with_prometheus/).  The way the exporter works is that it writes the metrics to a file to be collected by the node exporter which isn't what wanted to do.  I decided to write my own exporter that could be scraped by a [PodMonitor](https://github.com/prometheus-operator/prometheus-operator/blob/main/Documentation/api.md#monitoring.coreos.com/v1.PodMonitor).
 
@@ -81,7 +103,7 @@ spec:
 
 My project is a work-in-progress but you can try it out if you like [here](https://github.com/jhjaggars/boinc-exporter).
 
-# gpus
+# GPUs
 
 In order to take advantage of the onboard GPUs that my NUCs have I installed the [Intel Device Plugins for Kubernetes](https://intel.github.io/intel-device-plugins-for-kubernetes/cmd/gpu_plugin/README.html#install-with-operator) and the gpu plugin.
 
@@ -97,7 +119,7 @@ I added the following to the Pod Spec:
 ```
 
 
-# statefulset
+# StatefulSet
 
 I wanted to run the boinc client on all of my nuc machines so I scaled my initial deployment up to 3 and set an anti-affinity rule to prevent multiple copies from running on the same node.  I ran into a storage issue immediately, which should have been obvious.  Lucky for me, this is what [StatefulSet](https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/)s are made to help with.  Now each pod gets it's own volume according to my template and I can effectively run 3 clients at once each working on their own jobs.
 
@@ -157,6 +179,8 @@ spec:
             value: "www.worldcommunitygrid.org"
           - name: BOINC_ACCOUNT_KEY
             value: "1169799_9ee82bab35a6ad9683c654aabfd8882b"
+          - name: BOINC_DATA_DIR
+            value: "/boinc-data"
           volumeMounts:
           - name: data
             mountPath: /boinc-data
