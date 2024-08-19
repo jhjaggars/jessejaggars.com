@@ -24,12 +24,18 @@ The person I reached out to is an archtect on one of the major systems in my
 organization and the conversation went something like this:
 
 > me: Hey, do you work on issues regularly?
+>
 > them: No, not really.
+>
 > me: Do you want to?
+>
 > them: Sure!
+>
 > me: Have you ever tried pair programming?
+>
 > them: I've shared my screen and had someone look over my shoulder and
 >       criticize me as I tried to work on a bit of code before, so yeah.
+>
 > me: Oh, that's not what I was thinking...
 
 I think it's pretty common for someone who has never paired before to have some
@@ -51,6 +57,10 @@ We worked for about two hours and were able to make enough progress to reach a
 stopping point we were both happy with.  After, my colleague mentioned that it
 was much more enjoyable than he expected and he was glad we decided to do it.
 
-The experience got me to thinking about the benefits of the practice.
+The experience got me to thinking about what I believe are the benefits of the practice.
 
-- 
+- Reduces the "bus factor", meaning more than one person now understands how somethe thing works
+- All participants learn and teach each other things about how they work
+- Improved quality for the next person(s) to touch the project
+
+I'm sure there are some other ones, but to me, the above points are hard to deny.
