@@ -10,3 +10,9 @@
 [submodule "themes/hugo-theme-yue"]
 	path = themes/hugo-theme-yue
 	url = https://github.com/CyrusYip/hugo-theme-yue
+[submodule "themes/nostyleplease"]
+	path = themes/nostyleplease
+	url = https://github.com/Masellum/hugo-theme-nostyleplease.git
+[submodule "themes/gohugo-theme-ed"]
+	path = themes/gohugo-theme-ed
+	url = https://github.com/sergeyklay/gohugo-theme-ed
