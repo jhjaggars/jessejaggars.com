@@ -1,0 +1,23 @@
+{{- $description := "" -}}
+
+{{- if .IsHome -}}
+    {{- $description = site.Params.Description -}}
+{{- else -}}
+    {{- if and (.Params.Description) (ne .Params.Description "") -}}
+        {{- $description = print .Params.Description -}}
+    {{- else if and (.Params.Summary ) (ne .Params.Summary "") -}}
+        {{- $description = print .Params.Summary -}}
+    {{- else -}}
+        {{- $description = print .Summary -}}
+    {{- end -}}
+
+    {{ if eq (len $description) 0 -}}
+        {{- $description = site.Params.Description -}}
+    {{ end -}}
+{{- end -}}
+
+{{- /* Meta descriptions can technically be any length, but Google generally
+    truncates snippets to ~155-160 characters. It's best to keep meta descriptions
+    long enough that they're sufficiently descriptive, so we recommend descriptions
+    between 50 and 160 characters. */ -}}
+{{- replaceRE "\n" " " ($description | plainify | safeHTML | chomp | truncate 160) -}}

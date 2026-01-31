@@ -7,5 +7,3 @@ require (
 	github.com/olivernn/lunr.js v2.3.9+incompatible // indirect
 	github.com/sergeyklay/gohugo-theme-ed v0.8.0 // indirect
 )
-
-replace github.com/sergeyklay/gohugo-theme-ed => ./themes/gohugo-theme-ed

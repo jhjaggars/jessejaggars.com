@@ -1,0 +1,17 @@
+<script type="application/ld+json" id="schema-data">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": {{ partial "title.html" . }},
+        "url": {{ site.BaseURL }},
+        "keywords": {{ partial "keywords.html" . }},
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": {{ printf "%s?q={search_term_string}" (ref . "search") }}
+            },
+            "query-input": "required name=search_term_string"
+        }
+    }
+</script>

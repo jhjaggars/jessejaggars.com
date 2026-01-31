@@ -1,0 +1,88 @@
+{{- /* Get schema type. */}}
+{{- $schemaType := "Article" -}}
+
+{{- if (eq .Params.semanticType "contact") -}}
+    {{- $schemaType = "ContactPage" -}}
+{{- else if (eq .Params.semanticType "about") -}}
+    {{- $schemaType = "AboutPage" -}}
+{{- else if or (eq .Type "post") (eq .Type "posts") -}}
+    {{- $schemaType = "BlogPosting" -}}
+{{- end -}}
+
+{{- $publisher := site.Params.seo.publisher | default site.Title -}}
+{{- $logo := resources.Get (site.Params.assets.logo | default "/img/open-graph-logo.png") -}}
+{{- $logo = $logo.Resize "96x96" }}
+
+{{- $siteAuthorName := "" }}
+{{- $siteAuthorTwitter := "" }}
+{{- with site.Params.author }}
+    {{- if reflect.IsMap . }}
+        {{- with .name }}
+            {{- $siteAuthorName = . }}
+        {{- end -}}
+        {{- with .twitter }}
+            {{- $siteAuthorTwitter = . }}
+        {{- end }}
+    {{- else }}
+        {{- $siteAuthorName  = . }}
+    {{- end }}
+{{- end }}
+
+<script type="application/ld+json" id="schema-data">
+    {
+        "@context": "https://schema.org",
+        "@type": {{ $schemaType }},
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": {{ .Permalink }}
+        },
+        "url": {{ .Permalink }},
+        "headline": {{ partial "title.html" . | htmlUnescape }},
+        "description": {{ partial "description.html" . }},{{ if .Params.featuredImage }}
+        {{ $image := .Resources.GetMatch .Params.featuredImage -}}
+        "image": {
+            "@type": "ImageObject",
+            "url": {{ $image.Permalink }},
+            "width": "{{ $image.Width }}",
+            "height": "{{ $image.Height }}"
+        },{{ end }}
+        "keywords": {{ partial "keywords.html" . }},
+        "datePublished": {{ .Date.Format "2006-01-02T15:04:05Z07:00" }},
+        "dateModified": {{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }},
+        {{- if .Params.author }}
+            {{- $authorType := (printf "%T" .Params.author) -}}
+            {{- if eq $authorType "string" }}
+            "author": {
+                "@type": "Person",
+                "name": {{ .Params.author }}
+            },
+            {{- else if eq $authorType "[]string" }}
+            "author": [
+                {{ range $i, $author := .Params.author }}{{ if $i }},{{ end }}
+                {
+                    "@type": "Person",
+                    "name": {{ $author }}
+                }{{ end }}
+            ],
+            {{- end }}
+        {{- else }}
+            {{- with $siteAuthorName }}
+            "author": {
+                "@type": "Person",
+                "name": {{ . }}{{ with $siteAuthorTwitter }},
+                "url": "https://twitter.com/{{ . }}"{{ end }}
+            },
+            {{- end }}
+        {{- end }}
+        "publisher": {
+            "@type": "Organization",
+            "name": {{ $publisher }},
+            "logo": {
+                "@type": "ImageObject",
+                "url": {{ $logo.Permalink | absURL }},
+                "width": "{{ $logo.Width }}",
+                "height": "{{ $logo.Height }}"
+            }
+        }
+    }
+</script>

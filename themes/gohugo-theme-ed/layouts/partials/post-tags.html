@@ -1,0 +1,13 @@
+{{ $tags := .Params.Tags | default slice }}
+
+<div class="tags-wrapper">
+    <ul class="post-tags">
+        {{ range $index, $name := sort $tags -}}
+            <li>
+                <a href="/tags/{{ (printf "%s" $name) | urlize }}">
+                    {{ $name | markdownify }}
+                </a>
+            </li>
+        {{ end }}
+    </ul>
+</div>

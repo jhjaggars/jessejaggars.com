@@ -1,0 +1,68 @@
+name: Playwright
+
+on:
+  push:
+    branches-ignore:
+      # These should always correspond to pull requests, so ignore them for
+      # the push trigger and let them be triggered by the pull_request
+      # trigger, avoiding running the workflow twice.  This is a minor
+      # optimization so there's no need to ensure this is comprehensive.
+      - 'dependabot/**'
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  test:
+    name: Run tests
+    runs-on: ubuntu-latest
+
+    # The maximum number of minutes to let a workflow run
+    # before GitHub automatically cancels it. Default: 360
+    timeout-minutes: 30
+
+    strategy:
+      # When set to true, GitHub cancels
+      # all in-progress jobs if any matrix job fails.
+      fail-fast: false
+
+      matrix:
+        hugo-version:
+          - '0.121.0'
+          - latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v6
+      with:
+        # Fetch all history for .GitInfo and .Lastmod
+        fetch-depth: 0
+
+    - name: Set up Node 20.x
+      uses: actions/setup-node@v6
+      with:
+        node-version: '20.x'
+        cache: 'npm'
+        cache-dependency-path: '**/package-lock.json'
+
+    - name: Install npm dependencies
+      run: npm ci --ignore-scripts
+
+    - name: Install Playwright Browsers
+      run: npx playwright install --with-deps
+
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v3
+      with:
+        hugo-version: ${{ matrix.hugo-version }}
+        extended: true
+
+    - name: Run Playwright tests
+      run: npm run test
+
+    - name: Upload tests artifact
+      uses: actions/upload-artifact@v6
+      if: always()
+      with:
+        name: playwright-report-hugo-${{ matrix.hugo-version }}
+        path: playwright-report/
+        retention-days: 30

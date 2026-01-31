@@ -1,0 +1,44 @@
+    <!-- Open Graph metadata -->
+    <meta property="og:title" content="{{ partial "title.html" . }}">
+    <meta property="og:description" content="{{ (partial "description.html" . ) }}">
+    <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+    <meta property="og:url" content="{{ .Permalink }}">
+
+{{- $logo := resources.Get (site.Params.assets.logo | default "/img/open-graph-logo.png" ) -}}
+
+{{- if and .IsPage .Params.featuredImage -}}
+    {{- $image := .Resources.GetMatch .Params.featuredImage }}
+    <meta property="og:image" content="{{ $image.Permalink }}">
+    <meta property="og:image:width" content="{{ $image.Width }}">
+    <meta property="og:image:height" content="{{ $image.Height }}">
+{{- else }}
+    <meta property="og:image" content="{{ $logo.Permalink }}">
+    <meta property="og:image:width" content="{{ $logo.Width }}">
+    <meta property="og:image:height" content="{{ $logo.Height }}">
+{{- end -}}
+
+{{- if .IsPage -}}
+    {{- if not .PublishDate.IsZero }}
+    <meta property="article:published_time" content="{{ .PublishDate.Format "2006-01-02T15:04:05" }}">
+    {{- end -}}
+
+    {{- if not .Lastmod.IsZero }}
+    <meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05" }}">
+    {{- end -}}
+
+    {{- if not .ExpiryDate.IsZero }}
+    <meta property="article:expiration_time" content="{{ .ExpiryDate.Format "2006-01-02T15:04:05" }}">
+    {{- end -}}
+
+    {{- with .Params.tags -}}{{- range $v := . }}
+    <meta property="article:tag" content="{{ $v }}">
+    {{- end -}}{{- end -}}
+{{- end -}}
+
+{{- /* Facebook Page Admin ID for Domain Insights */ -}}
+{{- with site.Params.social.facebookId }}
+    <meta property="fb:app_id" content="{{ . }}">
+{{- end -}}
+{{- with site.Params.social.facebookAdminIds -}}{{- range . }}
+    <meta property="fb:admins" content="{{ . }}">
+{{- end }}{{- end }}

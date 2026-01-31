@@ -1,0 +1,31 @@
+{{- /*
+
+This partial is used to get the last modification date of the site.
+
+In Hugo v0.123.0, the .Site.LastChange variable was deprecated in favour of .Site.Lastmod.
+To maintain compatibility with older versions of Hugo, this partial checks the Hugo version.
+If the version is greater than or equal to v0.123.0, it uses .Site.Lastmod.
+Otherwise, it falls back to using .Site.LastChange.
+
+The result is stored in the $siteLastMod variable and returned by the partial.
+
+Usage:
+
+    {{ $siteLastMod := partial "site-last-mod.html" . }}
+
+For more information, see: https://github.com/gohugoio/hugo/releases/tag/v0.123.0
+*/ -}}
+
+{{- $siteLastMod := "" -}}
+
+{{- if ge site.Hugo.Version "0.123.0" -}}
+    {{- if not site.Lastmod.IsZero -}}
+        {{- $siteLastMod = site.Lastmod -}}
+    {{- end -}}
+{{- else -}}
+    {{- if not site.LastChange.IsZero -}}
+        {{- $siteLastMod = site.LastChange -}}
+    {{- end -}}
+{{- end -}}
+
+{{- return $siteLastMod -}}

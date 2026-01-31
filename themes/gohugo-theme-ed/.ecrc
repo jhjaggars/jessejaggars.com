@@ -1,0 +1,6 @@
+{
+  "Exclude": [
+    "\\.scss_.*\\.json$",
+    "\\.scss_.*\\.content$"
+  ]
+}

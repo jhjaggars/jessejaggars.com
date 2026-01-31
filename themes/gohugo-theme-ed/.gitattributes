@@ -1,0 +1,45 @@
+# Defining attributes per path.
+#
+# For more see: https://git-scm.com/docs/gitattributes
+
+# Auto-detect text files, ensure they use LF.
+* text=auto eol=lf
+
+#
+# Ignore path for Linguist.
+#
+
+exampleSite/**    linguist-vendored
+resources/_gen/** linguist-generated
+
+#
+# Setting up Linguist
+#
+
+.ecrc             linguist-language=JSON
+*.md              linguist-documentation=true
+*.webmanifest     linguist-language=JSON
+
+/layouts/index.json        linguist-language=HTML
+/layouts/_default/list.*.* linguist-language=HTML
+/layouts/_default/home.*.* linguist-language=HTML
+
+#
+# Configuration and some text files.
+#
+
+.ecrc           diff=json
+*.webmanifest   diff=json
+
+#
+# Exclude files from exporting
+# (used by the "download ZIP archive" option, for example).
+#
+
+/.github           export-ignore
+.ecrc              export-ignore
+.gitattributes     export-ignore
+.gitignore         export-ignore
+eslint.config.js   export-ignore
+netlify-preview.js export-ignore
+netlify.toml       export-ignore

@@ -1,0 +1,35 @@
+{
+  "name": "ed",
+  "version": "0.8.0",
+  "private": true,
+  "description": "Ed theme for minimal editions, based on Alex Gil theme.",
+  "keywords": [
+    "hugo",
+    "theme",
+    "minimal"
+  ],
+  "homepage": "https://github.com/sergeyklay/gohugo-theme-ed#readme",
+  "bugs": {
+    "url": "https://github.com/sergeyklay/gohugo-theme-ed/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergeyklay/gohugo-theme-ed.git"
+  },
+  "license": "MIT",
+  "author": "Serghei Iakovlev <egrep@protonmail.ch>",
+  "main": "index.js",
+  "scripts": {
+    "build": "HUGO_RESOURCEDIR='../resources' HUGO_ENV=production hugo --gc --logLevel info --source=exampleSite --cleanDestinationDir --printUnusedTemplates --printPathWarnings --printMemoryUsage --printI18nWarnings --buildDrafts --buildExpired --buildFuture --forceSyncStatic",
+    "server": "HUGO_RESOURCEDIR='../resources' HUGO_ENV=development hugo server --logLevel info --source=exampleSite --buildDrafts --buildFuture --ignoreCache --disableFastRender",
+    "test": "playwright test",
+    "lint": "eslint static/js/* assets/js/* tests/*.spec.js eslint.config.js playwright.config.js netlify-preview.js",
+    "netlify-preview": "node netlify-preview.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.0",
+    "@types/node": "^25.1.0",
+    "eslint": "^9.39.2",
+    "jsdom": "^27.4.0"
+  }
+}
