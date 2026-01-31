@@ -1,11 +1,221 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Manual</title><link>https://jessejaggars.com/</link><description>Recent content on The Manual</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 11 Aug 2024 15:38:28 -0400</lastBuildDate><atom:link href="https://jessejaggars.com/index.xml" rel="self" type="application/rss+xml"/><item><title>BOINC</title><link>https://jessejaggars.com/post/boinc/</link><pubDate>Sun, 11 Aug 2024 15:38:28 -0400</pubDate><guid>https://jessejaggars.com/post/boinc/</guid><description>My friend Adam was telling me about World Community Grid the other day, which is a program for performing distributed research projects by allowing anyone to donate otherwise unused computing power to the program. It reminds me of distributed.net, with arguably nobler causes behind the project. I have a good chunk of unused cpu and gpu capacity laying around so I decided I&amp;rsquo;d set up the boinc client on my homelab.</description></item><item><title>Pairing</title><link>https://jessejaggars.com/post/pairing/</link><pubDate>Sat, 15 Apr 2023 11:11:06 -0400</pubDate><guid>https://jessejaggars.com/post/pairing/</guid><description>For the past few years I have drifted away from working on software regularly in my day job. My new role gives me an opportunity to work on code regularly again so I&amp;rsquo;ve been looking for reasonable projects to jump into. There is no shortage of work, but I want to make sure that I don&amp;rsquo;t get too much into the critical path since I won&amp;rsquo;t be able to devote my full attention to working on a single task for long.</description></item><item><title>Btrfs Is Awesome</title><link>https://jessejaggars.com/post/btrfs-is-awesome/</link><pubDate>Thu, 15 Apr 2021 18:46:22 -0400</pubDate><guid>https://jessejaggars.com/post/btrfs-is-awesome/</guid><description>I just had a really enjoyable software experience. Without explaining how I got into this situation, let me just explain the starting conditions.
-I have a 1TB nvme disk in my system and had two btrfs partitions, / and /home. On this same system I have a handful of other partitions to enable dual-booting. The layout was something like this:
-[[ntfs 512GB].....................[/home 64GB][/ 64GB]] And I wanted a layout more like this:</description></item><item><title>Post Pandemic Anxiety</title><link>https://jessejaggars.com/post/post-pandemic-anxiety/</link><pubDate>Sun, 11 Apr 2021 10:11:45 -0400</pubDate><guid>https://jessejaggars.com/post/post-pandemic-anxiety/</guid><description>I got my second dose of the Pfizer-BioNTech COVID-19 vaccine on Friday. The trip was slightly annoying, but ultimately less frustrating than the first shot. I&amp;rsquo;ve been having mild side-effects which isn&amp;rsquo;t really noteworthy, but some folks like to keep score I guess.
-As I was making the journey I spent some time thinking about &amp;lsquo;going back to normal&amp;rsquo;. And while I know that&amp;rsquo;s not a good description of what to expect, it still helped me into a more anxious state of mind.</description></item><item><title>Try Again</title><link>https://jessejaggars.com/post/try-again/</link><pubDate>Fri, 09 Apr 2021 08:18:12 -0400</pubDate><guid>https://jessejaggars.com/post/try-again/</guid><description>In a few minutes I&amp;rsquo;ll be traveling back to Dunn to get my second dose of the Pfizer Covid-19 Vaccine. Last time (three weeks ago), the traffic was amazing. Possiblly the worst I had ever seen.
-This time my wife is going too and we have a plan to let me disembark near the site and she will find a place to park that is easy to get to.
-It feels like one of those plans that sounds very clever in advance but might go poorly because everyone else has the same idea.</description></item><item><title>Denied</title><link>https://jessejaggars.com/post/denied/</link><pubDate>Wed, 07 Apr 2021 12:50:46 -0400</pubDate><guid>https://jessejaggars.com/post/denied/</guid><description>I thought I was going to receive my second Pfizer vaccine today. I showed up on time with my documentation, and handed it over to the lady behind the sign-up desk.
-She took a quick look at my card, and asked me if I had already had my first shot. It seemed odd to me that she would ask, because I just presented my card as evidence that I had.</description></item><item><title>All the Things</title><link>https://jessejaggars.com/post/all-the-things/</link><pubDate>Tue, 06 Apr 2021 16:29:13 -0400</pubDate><guid>https://jessejaggars.com/post/all-the-things/</guid><description>For as long as I can remember, I&amp;rsquo;ve suffered from a condition where I assume that if I know something, everyone else must know it too.
-I think it stems from the feeling that I&amp;rsquo;m not especially knowledgeable, nor do I think I&amp;rsquo;ve had a novel existence (no really, I haven&amp;rsquo;t).
-In fact, as I&amp;rsquo;ve aged I&amp;rsquo;ve come to relize that I know less and less, by the second it seems!</description></item><item><title>Pfizer dose #2 incoming</title><link>https://jessejaggars.com/post/pfz2/</link><pubDate>Mon, 05 Apr 2021 11:38:18 -0400</pubDate><guid>https://jessejaggars.com/post/pfz2/</guid><description>I&amp;rsquo;ll receive my second dose of the Pfizer Sars-Cov-2 vaccine on Wednesday and I&amp;rsquo;m feeling pretty mixed about it.
-On one hand, I feel great that I&amp;rsquo;m on my way to be about as protected as I can be against the disease as well as reducing my chances at spreading it to others.
-On the other, my son cannot be vaccinated (he&amp;rsquo;s three), and so many other people have suffered over the past year, that it&amp;rsquo;s just plain hard to be elated.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-us" xml:base="https://jessejaggars.com/">
+    <title>Jesse Jaggars</title>
+    <subtitle type="html"><![CDATA[Personal blog and writings by Jesse Jaggars]]></subtitle>
+    <link href="/" rel="alternate" type="text/html" title="html" />
+    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="rss" />
+    <icon>https://jessejaggars.com/img/open-graph-logo_hu_cfda06ea0adc9739.png</icon>
+    <logo>https://jessejaggars.com/img/open-graph-logo_hu_cfda06ea0adc9739.png</logo>
+    <author>
+        <name>Jesse Jaggars</name>
+        
+    </author>
+    <generator uri="https://gohugo.io" version="0.155.1">Hugo</generator>
+    <updated>2026-01-31T09:52:20-05:00</updated>
+    <id>urn:uuid:b2362c22-054c-535b-99c9-b395b56b8397</id>
+    <entry>
+        
+        <category term="post" />
+        
+        <link rel="alternate" type="type/html" href="https://jessejaggars.com/post/the-search-tax/?utm_source=atom_feed" />
+        <title type="html"><![CDATA[The Search Tax]]></title>
+        
+        
+        
+        <published>2026-01-31T09:52:20-05:00</published>
+        <updated>2026-01-31T09:52:20-05:00</updated>
+        <id>urn:uuid:4843d307-b107-5b08-a910-56a650463965</id>
+        
+        <summary type="html"><![CDATA[<p>Do you ever reach the end of the day and wish you had spent your attention differently?</p>
+<p>I have these days often. I remember as a kid hearing variations of the phrase &ldquo;57 channels and nothin&rsquo; on&rdquo;, often with a larger number than &ldquo;the Boss&rdquo; originally wrote about in 1992. It often referred to the abundance of television channels available via satellite, but when you would sit down to find something to watch, nothing would pique your interest. I was watching a video from Hank Green today that put a couple of small ideas in my head that made me think a little more deeply about why these feelings are more persistent. I thought of an analogy and a set of vocabulary that helps clarify what I feel are the parts of the problem and how they interact.</p>]]></summary>
+    </entry>
+    <entry>
+        
+        <category term="post" />
+        
+        <link rel="alternate" type="type/html" href="https://jessejaggars.com/post/boinc/?utm_source=atom_feed" />
+        <title type="html"><![CDATA[BOINC]]></title>
+        
+        
+        
+        <published>2024-08-11T15:38:28-04:00</published>
+        <updated>2024-08-11T15:38:28-04:00</updated>
+        <id>urn:uuid:e5457ba5-024a-5dc5-d913-b395dca101ad</id>
+        
+        <summary type="html"><![CDATA[<p>My friend Adam was telling me about <a href="https://www.worldcommunitygrid.org">World Community Grid</a> the other day, which is a program for performing distributed research projects by allowing anyone to donate otherwise unused computing power to the program.  It reminds me of <a href="https://distributed.net">distributed.net</a>, with arguably nobler causes behind the project.  I have a good chunk of unused cpu and gpu capacity laying around so I decided I&rsquo;d set up the <a href="https://boinc.berkeley.edu/">boinc client</a> on my homelab.</p>
+<p>Boinc is essentially a client program that enrolls your computer as a worker in a project like World Community Grid and coordinates the work on your system.</p>]]></summary>
+    </entry>
+    <entry>
+        
+        <category term="post" />
+        
+        <link rel="alternate" type="type/html" href="https://jessejaggars.com/post/pairing/?utm_source=atom_feed" />
+        <title type="html"><![CDATA[Pairing]]></title>
+        
+        
+        
+        <published>2023-04-15T11:11:06-04:00</published>
+        <updated>2023-04-15T11:11:06-04:00</updated>
+        <id>urn:uuid:afdca693-a8b5-5fdd-a955-fb6039a18a2b</id>
+        
+        <summary type="html"><![CDATA[<p>For the past few years I have drifted away from working on software regularly
+in my day job.  My new role gives me an opportunity to work on code regularly
+again so I&rsquo;ve been looking for reasonable projects to jump into.  There is no
+shortage of work, but I want to make sure that I don&rsquo;t get too much into the
+critical path since I won&rsquo;t be able to devote my full attention to working on a
+single task for long.</p>]]></summary>
+    </entry>
+    <entry>
+        
+        <category term="post" />
+        
+        <link rel="alternate" type="type/html" href="https://jessejaggars.com/post/btrfs-is-awesome/?utm_source=atom_feed" />
+        <title type="html"><![CDATA[Btrfs Is Awesome]]></title>
+        
+        
+        
+        <published>2021-04-15T18:46:22-04:00</published>
+        <updated>2021-04-15T18:46:22-04:00</updated>
+        <id>urn:uuid:5d92d31d-0259-5f08-89ba-5a60c3140e2b</id>
+        
+        <summary type="html"><![CDATA[<p>I just had a really enjoyable software experience.  Without explaining <em>how</em> I
+got into this situation, let me just explain the starting conditions.</p>
+<p>I have a 1TB nvme disk in my system and had two btrfs partitions, <code>/</code>
+and <code>/home</code>.  On this same system I have a handful of other partitions
+to enable dual-booting.  The layout was something like this:</p>
+<pre tabindex="0"><code>[[ntfs      512GB].....................[/home 64GB][/    64GB]]
+</code></pre><p>And I wanted a layout more like this:</p>]]></summary>
+    </entry>
+    <entry>
+        
+        <category term="post" />
+        
+        <link rel="alternate" type="type/html" href="https://jessejaggars.com/post/post-pandemic-anxiety/?utm_source=atom_feed" />
+        <title type="html"><![CDATA[Post Pandemic Anxiety]]></title>
+        
+        
+        
+        <published>2021-04-11T10:11:45-04:00</published>
+        <updated>2021-04-11T10:11:45-04:00</updated>
+        <id>urn:uuid:32a41eb3-be67-5891-7996-87359220de90</id>
+        
+        <summary type="html"><![CDATA[<p>I got my second dose of the Pfizer-BioNTech COVID-19 vaccine on Friday.
+The trip was slightly annoying, but ultimately less frustrating than the
+first shot.  I&rsquo;ve been having mild side-effects which isn&rsquo;t really
+noteworthy, but some folks like to keep score I guess.</p>
+<p>As I was making the journey I spent some time thinking about &lsquo;going back
+to normal&rsquo;. And while I know that&rsquo;s not a good description of what to
+expect, it still helped me into a more anxious state of mind.  I <em>enjoy</em>
+being a bit of a hermit.  For the past year or so, it has been more
+socially acceptable to stay in and avoid typical social interactions.</p>]]></summary>
+    </entry>
+    <entry>
+        
+        <category term="post" />
+        
+            
+            <category term="Covid" x="y" />
+            
+        
+        <link rel="alternate" type="type/html" href="https://jessejaggars.com/post/try-again/?utm_source=atom_feed" />
+        <title type="html"><![CDATA[Try Again]]></title>
+        
+        
+        
+            <link href="https://jessejaggars.com/post/denied/?utm_source=atom_feed" rel="related" type="text/html" title="Denied" />
+        
+            <link href="https://jessejaggars.com/post/pfz2/?utm_source=atom_feed" rel="related" type="text/html" title="Pfizer dose #2 incoming" />
+        
+        <published>2021-04-09T08:18:12-04:00</published>
+        <updated>2021-04-09T08:18:12-04:00</updated>
+        <id>urn:uuid:4d0c0e14-ea9b-5266-f967-6120f85d13ae</id>
+        
+        <summary type="html"><![CDATA[<p>In a few minutes I&rsquo;ll be traveling back to Dunn to get my second dose
+of the Pfizer Covid-19 Vaccine.  Last time (three weeks ago), the
+traffic was amazing.  Possiblly the worst I had ever seen.</p>
+<p>This time my wife is going too and we have a plan to let me disembark
+near the site and she will find a place to park that is easy to get
+to.</p>
+<p>It feels like one of those plans that sounds very clever in advance
+but might go poorly because everyone else has the same idea.  We shall
+see.</p>]]></summary>
+    </entry>
+    <entry>
+        
+        <category term="post" />
+        
+            
+            <category term="Covid" x="y" />
+            
+        
+        <link rel="alternate" type="type/html" href="https://jessejaggars.com/post/denied/?utm_source=atom_feed" />
+        <title type="html"><![CDATA[Denied]]></title>
+        
+        
+        
+            <link href="https://jessejaggars.com/post/try-again/?utm_source=atom_feed" rel="related" type="text/html" title="Try Again" />
+        
+            <link href="https://jessejaggars.com/post/pfz2/?utm_source=atom_feed" rel="related" type="text/html" title="Pfizer dose #2 incoming" />
+        
+        <published>2021-04-07T12:50:46-04:00</published>
+        <updated>2021-04-07T12:50:46-04:00</updated>
+        <id>urn:uuid:d858b014-d31c-5d64-69d6-740d9c578836</id>
+        
+        <summary type="html"><![CDATA[<p>I <em>thought</em> I was going to receive my second Pfizer vaccine today.  I showed up
+on time with my documentation, and handed it over to the lady behind the
+sign-up desk.</p>
+<p>She took a quick look at my card, and asked me if I had already had my first
+shot.  It seemed odd to me that she would ask, because I just presented my card
+as evidence that I had.</p>]]></summary>
+    </entry>
+    <entry>
+        
+        <category term="post" />
+        
+        <link rel="alternate" type="type/html" href="https://jessejaggars.com/post/all-the-things/?utm_source=atom_feed" />
+        <title type="html"><![CDATA[All the Things]]></title>
+        
+        
+        
+        <published>2021-04-06T16:29:13-04:00</published>
+        <updated>2021-04-06T16:29:13-04:00</updated>
+        <id>urn:uuid:6e68bbbc-1107-5f4f-191d-bc0f18be4016</id>
+        
+        <summary type="html"><![CDATA[<p>For as long as I can remember, I&rsquo;ve suffered from a condition where I assume
+that if <em>I</em> know something, everyone else must know it too.</p>
+<p>I think it stems from the feeling that I&rsquo;m not especially knowledgeable, nor do
+I think I&rsquo;ve had a novel existence (no really, I haven&rsquo;t).</p>
+<p>In fact, as I&rsquo;ve aged I&rsquo;ve come to relize that I know less and less, by the
+second it seems!  Perhaps, because of that I still fall into the trap of
+assuming others benefit from a shared context with me.</p>]]></summary>
+    </entry>
+    <entry>
+        
+        <category term="post" />
+        
+            
+            <category term="Covid" x="y" />
+            
+        
+        <link rel="alternate" type="type/html" href="https://jessejaggars.com/post/pfz2/?utm_source=atom_feed" />
+        <title type="html"><![CDATA[Pfizer dose #2 incoming]]></title>
+        
+        
+        
+            <link href="https://jessejaggars.com/post/try-again/?utm_source=atom_feed" rel="related" type="text/html" title="Try Again" />
+        
+            <link href="https://jessejaggars.com/post/denied/?utm_source=atom_feed" rel="related" type="text/html" title="Denied" />
+        
+        <published>2021-04-05T11:38:18-04:00</published>
+        <updated>2021-04-05T11:38:18-04:00</updated>
+        <id>urn:uuid:82a9905b-8b11-5cbb-697a-cd54982a96a9</id>
+        
+        <summary type="html"><![CDATA[<p>I&rsquo;ll receive my second dose of the Pfizer Sars-Cov-2 vaccine on Wednesday and
+I&rsquo;m feeling pretty mixed about it.</p>
+<p>On one hand, I feel great that I&rsquo;m on my way to be about as protected as I can
+be against the disease as well as reducing my chances at spreading it to
+others.</p>
+<p>On the other, my son cannot be vaccinated (he&rsquo;s three), and so many other
+people have suffered over the past year, that it&rsquo;s just plain hard to be elated.</p>]]></summary>
+    </entry>
+</feed>

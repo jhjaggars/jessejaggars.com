@@ -1,1 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on The Manual</title><link>https://jessejaggars.com/tags/</link><description>Recent content in Tags on The Manual</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 09 Apr 2021 08:18:12 -0400</lastBuildDate><atom:link href="https://jessejaggars.com/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>Covid</title><link>https://jessejaggars.com/tags/covid/</link><pubDate>Fri, 09 Apr 2021 08:18:12 -0400</pubDate><guid>https://jessejaggars.com/tags/covid/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-us" xml:base="https://jessejaggars.com/">
+    <title>Tags - Jesse Jaggars</title>
+    <subtitle type="html"><![CDATA[Personal blog and writings by Jesse Jaggars]]></subtitle>
+    <link href="/tags/" rel="alternate" type="text/html" title="html" />
+    <link href="/tags/index.xml" rel="alternate" type="application/rss+xml" title="rss" />
+    <icon>https://jessejaggars.com/img/open-graph-logo_hu_cfda06ea0adc9739.png</icon>
+    <logo>https://jessejaggars.com/img/open-graph-logo_hu_cfda06ea0adc9739.png</logo>
+    <author>
+        <name>Jesse Jaggars</name>
+        
+    </author>
+    <generator uri="https://gohugo.io" version="0.155.1">Hugo</generator>
+    <updated>2026-01-31T09:52:20-05:00</updated>
+    <id>urn:uuid:b2362c22-054c-535b-99c9-b395b56b8397</id>
+    <entry>
+        
+        <category term="tags" />
+        
+        <link rel="alternate" type="type/html" href="https://jessejaggars.com/tags/covid/?utm_source=atom_feed" />
+        <title type="html"><![CDATA[Covid]]></title>
+        
+        
+        
+        <published>2021-04-09T08:18:12-04:00</published>
+        <updated>2021-04-09T08:18:12-04:00</updated>
+        <id>urn:uuid:8e59f4f3-67cf-58e9-097c-2db750f005d8</id>
+        
+        <summary type="html"><![CDATA[]]></summary>
+    </entry>
+</feed>
