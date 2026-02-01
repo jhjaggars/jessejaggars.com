@@ -21,10 +21,69 @@
             <category term="Covid" x="y" />
             
         
+            
+            <category term="Mental-Health" x="y" />
+            
+        
+            
+            <category term="Pandemic" x="y" />
+            
+        
+            
+            <category term="Personal" x="y" />
+            
+        
+            
+            <category term="Social-Anxiety" x="y" />
+            
+        
+        <link rel="alternate" type="type/html" href="https://jessejaggars.com/post/post-pandemic-anxiety/?utm_source=atom_feed" />
+        <title type="html"><![CDATA[Post Pandemic Anxiety]]></title>
+        
+        
+        
+            <link href="https://jessejaggars.com/post/try-again/?utm_source=atom_feed" rel="related" type="text/html" title="Try Again" />
+        
+            <link href="https://jessejaggars.com/post/denied/?utm_source=atom_feed" rel="related" type="text/html" title="Denied" />
+        
+            <link href="https://jessejaggars.com/post/pfz2/?utm_source=atom_feed" rel="related" type="text/html" title="Pfizer dose #2 incoming" />
+        
+        <published>2021-04-11T10:11:45-04:00</published>
+        <updated>2021-04-11T10:11:45-04:00</updated>
+        <id>urn:uuid:32a41eb3-be67-5891-7996-87359220de90</id>
+        
+        <summary type="html"><![CDATA[<p>I got my second dose of the Pfizer-BioNTech COVID-19 vaccine on Friday.
+The trip was slightly annoying, but ultimately less frustrating than the
+first shot.  I&rsquo;ve been having mild side-effects which isn&rsquo;t really
+noteworthy, but some folks like to keep score I guess.</p>
+<p>As I was making the journey I spent some time thinking about &lsquo;going back
+to normal&rsquo;. And while I know that&rsquo;s not a good description of what to
+expect, it still helped me into a more anxious state of mind.  I <em>enjoy</em>
+being a bit of a hermit.  For the past year or so, it has been more
+socially acceptable to stay in and avoid typical social interactions.</p>]]></summary>
+    </entry>
+    <entry>
+        
+        <category term="post" />
+        
+            
+            <category term="Covid" x="y" />
+            
+        
+            
+            <category term="Vaccine" x="y" />
+            
+        
+            
+            <category term="Pandemic" x="y" />
+            
+        
         <link rel="alternate" type="type/html" href="https://jessejaggars.com/post/try-again/?utm_source=atom_feed" />
         <title type="html"><![CDATA[Try Again]]></title>
         
         
+        
+            <link href="https://jessejaggars.com/post/post-pandemic-anxiety/?utm_source=atom_feed" rel="related" type="text/html" title="Post Pandemic Anxiety" />
         
             <link href="https://jessejaggars.com/post/denied/?utm_source=atom_feed" rel="related" type="text/html" title="Denied" />
         
@@ -52,10 +111,24 @@ see.</p>]]></summary>
             <category term="Covid" x="y" />
             
         
+            
+            <category term="Healthcare" x="y" />
+            
+        
+            
+            <category term="Pandemic" x="y" />
+            
+        
+            
+            <category term="Vaccine" x="y" />
+            
+        
         <link rel="alternate" type="type/html" href="https://jessejaggars.com/post/denied/?utm_source=atom_feed" />
         <title type="html"><![CDATA[Denied]]></title>
         
         
+        
+            <link href="https://jessejaggars.com/post/post-pandemic-anxiety/?utm_source=atom_feed" rel="related" type="text/html" title="Post Pandemic Anxiety" />
         
             <link href="https://jessejaggars.com/post/try-again/?utm_source=atom_feed" rel="related" type="text/html" title="Try Again" />
         
@@ -80,10 +153,24 @@ as evidence that I had.</p>]]></summary>
             <category term="Covid" x="y" />
             
         
+            
+            <category term="Vaccine" x="y" />
+            
+        
+            
+            <category term="Pandemic" x="y" />
+            
+        
+            
+            <category term="Personal" x="y" />
+            
+        
         <link rel="alternate" type="type/html" href="https://jessejaggars.com/post/pfz2/?utm_source=atom_feed" />
         <title type="html"><![CDATA[Pfizer dose #2 incoming]]></title>
         
         
+        
+            <link href="https://jessejaggars.com/post/post-pandemic-anxiety/?utm_source=atom_feed" rel="related" type="text/html" title="Post Pandemic Anxiety" />
         
             <link href="https://jessejaggars.com/post/try-again/?utm_source=atom_feed" rel="related" type="text/html" title="Try Again" />
         

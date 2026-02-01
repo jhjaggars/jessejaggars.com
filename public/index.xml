@@ -17,6 +17,30 @@
         
         <category term="post" />
         
+            
+            <category term="Philosophy" x="y" />
+            
+        
+            
+            <category term="Attention" x="y" />
+            
+        
+            
+            <category term="Productivity" x="y" />
+            
+        
+            
+            <category term="Social-Media" x="y" />
+            
+        
+            
+            <category term="Essays" x="y" />
+            
+        
+            
+            <category term="Mental-Models" x="y" />
+            
+        
         <link rel="alternate" type="type/html" href="https://jessejaggars.com/post/the-search-tax/?utm_source=atom_feed" />
         <title type="html"><![CDATA[The Search Tax]]></title>
         
@@ -33,6 +57,30 @@
         
         <category term="post" />
         
+            
+            <category term="Kubernetes" x="y" />
+            
+        
+            
+            <category term="Containerization" x="y" />
+            
+        
+            
+            <category term="Distributed-Computing" x="y" />
+            
+        
+            
+            <category term="Homelab" x="y" />
+            
+        
+            
+            <category term="Monitoring" x="y" />
+            
+        
+            
+            <category term="Docker" x="y" />
+            
+        
         <link rel="alternate" type="type/html" href="https://jessejaggars.com/post/boinc/?utm_source=atom_feed" />
         <title type="html"><![CDATA[BOINC]]></title>
         
@@ -48,6 +96,26 @@
     <entry>
         
         <category term="post" />
+        
+            
+            <category term="Software-Development" x="y" />
+            
+        
+            
+            <category term="Pair-Programming" x="y" />
+            
+        
+            
+            <category term="Collaboration" x="y" />
+            
+        
+            
+            <category term="Engineering-Practices" x="y" />
+            
+        
+            
+            <category term="Teamwork" x="y" />
+            
         
         <link rel="alternate" type="type/html" href="https://jessejaggars.com/post/pairing/?utm_source=atom_feed" />
         <title type="html"><![CDATA[Pairing]]></title>
@@ -68,6 +136,22 @@ single task for long.</p>]]></summary>
     <entry>
         
         <category term="post" />
+        
+            
+            <category term="Btrfs" x="y" />
+            
+        
+            
+            <category term="Linux" x="y" />
+            
+        
+            
+            <category term="Filesystems" x="y" />
+            
+        
+            
+            <category term="Storage" x="y" />
+            
         
         <link rel="alternate" type="type/html" href="https://jessejaggars.com/post/btrfs-is-awesome/?utm_source=atom_feed" />
         <title type="html"><![CDATA[Btrfs Is Awesome]]></title>
@@ -90,10 +174,36 @@ to enable dual-booting.  The layout was something like this:</p>
         
         <category term="post" />
         
+            
+            <category term="Covid" x="y" />
+            
+        
+            
+            <category term="Mental-Health" x="y" />
+            
+        
+            
+            <category term="Pandemic" x="y" />
+            
+        
+            
+            <category term="Personal" x="y" />
+            
+        
+            
+            <category term="Social-Anxiety" x="y" />
+            
+        
         <link rel="alternate" type="type/html" href="https://jessejaggars.com/post/post-pandemic-anxiety/?utm_source=atom_feed" />
         <title type="html"><![CDATA[Post Pandemic Anxiety]]></title>
         
         
+        
+            <link href="https://jessejaggars.com/post/try-again/?utm_source=atom_feed" rel="related" type="text/html" title="Try Again" />
+        
+            <link href="https://jessejaggars.com/post/denied/?utm_source=atom_feed" rel="related" type="text/html" title="Denied" />
+        
+            <link href="https://jessejaggars.com/post/pfz2/?utm_source=atom_feed" rel="related" type="text/html" title="Pfizer dose #2 incoming" />
         
         <published>2021-04-11T10:11:45-04:00</published>
         <updated>2021-04-11T10:11:45-04:00</updated>
@@ -117,10 +227,20 @@ socially acceptable to stay in and avoid typical social interactions.</p>]]></su
             <category term="Covid" x="y" />
             
         
+            
+            <category term="Vaccine" x="y" />
+            
+        
+            
+            <category term="Pandemic" x="y" />
+            
+        
         <link rel="alternate" type="type/html" href="https://jessejaggars.com/post/try-again/?utm_source=atom_feed" />
         <title type="html"><![CDATA[Try Again]]></title>
         
         
+        
+            <link href="https://jessejaggars.com/post/post-pandemic-anxiety/?utm_source=atom_feed" rel="related" type="text/html" title="Post Pandemic Anxiety" />
         
             <link href="https://jessejaggars.com/post/denied/?utm_source=atom_feed" rel="related" type="text/html" title="Denied" />
         
@@ -148,10 +268,24 @@ see.</p>]]></summary>
             <category term="Covid" x="y" />
             
         
+            
+            <category term="Healthcare" x="y" />
+            
+        
+            
+            <category term="Pandemic" x="y" />
+            
+        
+            
+            <category term="Vaccine" x="y" />
+            
+        
         <link rel="alternate" type="type/html" href="https://jessejaggars.com/post/denied/?utm_source=atom_feed" />
         <title type="html"><![CDATA[Denied]]></title>
         
         
+        
+            <link href="https://jessejaggars.com/post/post-pandemic-anxiety/?utm_source=atom_feed" rel="related" type="text/html" title="Post Pandemic Anxiety" />
         
             <link href="https://jessejaggars.com/post/try-again/?utm_source=atom_feed" rel="related" type="text/html" title="Try Again" />
         
@@ -171,6 +305,18 @@ as evidence that I had.</p>]]></summary>
     <entry>
         
         <category term="post" />
+        
+            
+            <category term="Communication" x="y" />
+            
+        
+            
+            <category term="Teaching" x="y" />
+            
+        
+            
+            <category term="Knowledge-Sharing" x="y" />
+            
         
         <link rel="alternate" type="type/html" href="https://jessejaggars.com/post/all-the-things/?utm_source=atom_feed" />
         <title type="html"><![CDATA[All the Things]]></title>
@@ -197,10 +343,24 @@ assuming others benefit from a shared context with me.</p>]]></summary>
             <category term="Covid" x="y" />
             
         
+            
+            <category term="Vaccine" x="y" />
+            
+        
+            
+            <category term="Pandemic" x="y" />
+            
+        
+            
+            <category term="Personal" x="y" />
+            
+        
         <link rel="alternate" type="type/html" href="https://jessejaggars.com/post/pfz2/?utm_source=atom_feed" />
         <title type="html"><![CDATA[Pfizer dose #2 incoming]]></title>
         
         
+        
+            <link href="https://jessejaggars.com/post/post-pandemic-anxiety/?utm_source=atom_feed" rel="related" type="text/html" title="Post Pandemic Anxiety" />
         
             <link href="https://jessejaggars.com/post/try-again/?utm_source=atom_feed" rel="related" type="text/html" title="Try Again" />
         

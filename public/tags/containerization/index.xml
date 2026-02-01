@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-us" xml:base="https://jessejaggars.com/">
+    <title>Publications tagged &#34;Containerization&#34; - Jesse Jaggars</title>
+    <subtitle type="html"><![CDATA[Personal blog and writings by Jesse Jaggars]]></subtitle>
+    <link href="/tags/containerization/" rel="alternate" type="text/html" title="html" />
+    <link href="/tags/containerization/index.xml" rel="alternate" type="application/rss+xml" title="rss" />
+    <icon>https://jessejaggars.com/img/open-graph-logo_hu_cfda06ea0adc9739.png</icon>
+    <logo>https://jessejaggars.com/img/open-graph-logo_hu_cfda06ea0adc9739.png</logo>
+    <author>
+        <name>Jesse Jaggars</name>
+        
+    </author>
+    <generator uri="https://gohugo.io" version="0.155.1">Hugo</generator>
+    <updated>2026-01-31T09:52:20-05:00</updated>
+    <id>urn:uuid:b2362c22-054c-535b-99c9-b395b56b8397</id>
+    <entry>
+        
+        <category term="post" />
+        
+            
+            <category term="Kubernetes" x="y" />
+            
+        
+            
+            <category term="Containerization" x="y" />
+            
+        
+            
+            <category term="Distributed-Computing" x="y" />
+            
+        
+            
+            <category term="Homelab" x="y" />
+            
+        
+            
+            <category term="Monitoring" x="y" />
+            
+        
+            
+            <category term="Docker" x="y" />
+            
+        
+        <link rel="alternate" type="type/html" href="https://jessejaggars.com/post/boinc/?utm_source=atom_feed" />
+        <title type="html"><![CDATA[BOINC]]></title>
+        
+        
+        
+        <published>2024-08-11T15:38:28-04:00</published>
+        <updated>2024-08-11T15:38:28-04:00</updated>
+        <id>urn:uuid:e5457ba5-024a-5dc5-d913-b395dca101ad</id>
+        
+        <summary type="html"><![CDATA[<p>My friend Adam was telling me about <a href="https://www.worldcommunitygrid.org">World Community Grid</a> the other day, which is a program for performing distributed research projects by allowing anyone to donate otherwise unused computing power to the program.  It reminds me of <a href="https://distributed.net">distributed.net</a>, with arguably nobler causes behind the project.  I have a good chunk of unused cpu and gpu capacity laying around so I decided I&rsquo;d set up the <a href="https://boinc.berkeley.edu/">boinc client</a> on my homelab.</p>
+<p>Boinc is essentially a client program that enrolls your computer as a worker in a project like World Community Grid and coordinates the work on your system.</p>]]></summary>
+    </entry>
+</feed>

@@ -2,10 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jessejaggars.com/tags/attention/</loc>
+    <lastmod>2026-01-31T09:52:20-05:00</lastmod>
+  </url><url>
+    <loc>https://jessejaggars.com/tags/essays/</loc>
+    <lastmod>2026-01-31T09:52:20-05:00</lastmod>
+  </url><url>
     <loc>https://jessejaggars.com/</loc>
     <lastmod>2026-01-31T09:52:20-05:00</lastmod>
   </url><url>
+    <loc>https://jessejaggars.com/tags/mental-models/</loc>
+    <lastmod>2026-01-31T09:52:20-05:00</lastmod>
+  </url><url>
+    <loc>https://jessejaggars.com/tags/philosophy/</loc>
+    <lastmod>2026-01-31T09:52:20-05:00</lastmod>
+  </url><url>
     <loc>https://jessejaggars.com/post/</loc>
+    <lastmod>2026-01-31T09:52:20-05:00</lastmod>
+  </url><url>
+    <loc>https://jessejaggars.com/tags/productivity/</loc>
+    <lastmod>2026-01-31T09:52:20-05:00</lastmod>
+  </url><url>
+    <loc>https://jessejaggars.com/tags/social-media/</loc>
+    <lastmod>2026-01-31T09:52:20-05:00</lastmod>
+  </url><url>
+    <loc>https://jessejaggars.com/tags/</loc>
     <lastmod>2026-01-31T09:52:20-05:00</lastmod>
   </url><url>
     <loc>https://jessejaggars.com/post/the-search-tax/</loc>
@@ -14,28 +35,97 @@
     <loc>https://jessejaggars.com/post/boinc/</loc>
     <lastmod>2024-08-11T15:38:28-04:00</lastmod>
   </url><url>
+    <loc>https://jessejaggars.com/tags/containerization/</loc>
+    <lastmod>2024-08-11T15:38:28-04:00</lastmod>
+  </url><url>
+    <loc>https://jessejaggars.com/tags/distributed-computing/</loc>
+    <lastmod>2024-08-11T15:38:28-04:00</lastmod>
+  </url><url>
+    <loc>https://jessejaggars.com/tags/docker/</loc>
+    <lastmod>2024-08-11T15:38:28-04:00</lastmod>
+  </url><url>
+    <loc>https://jessejaggars.com/tags/homelab/</loc>
+    <lastmod>2024-08-11T15:38:28-04:00</lastmod>
+  </url><url>
+    <loc>https://jessejaggars.com/tags/kubernetes/</loc>
+    <lastmod>2024-08-11T15:38:28-04:00</lastmod>
+  </url><url>
+    <loc>https://jessejaggars.com/tags/monitoring/</loc>
+    <lastmod>2024-08-11T15:38:28-04:00</lastmod>
+  </url><url>
+    <loc>https://jessejaggars.com/tags/collaboration/</loc>
+    <lastmod>2023-04-15T11:11:06-04:00</lastmod>
+  </url><url>
+    <loc>https://jessejaggars.com/tags/engineering-practices/</loc>
+    <lastmod>2023-04-15T11:11:06-04:00</lastmod>
+  </url><url>
+    <loc>https://jessejaggars.com/tags/pair-programming/</loc>
+    <lastmod>2023-04-15T11:11:06-04:00</lastmod>
+  </url><url>
     <loc>https://jessejaggars.com/post/pairing/</loc>
     <lastmod>2023-04-15T11:11:06-04:00</lastmod>
+  </url><url>
+    <loc>https://jessejaggars.com/tags/software-development/</loc>
+    <lastmod>2023-04-15T11:11:06-04:00</lastmod>
+  </url><url>
+    <loc>https://jessejaggars.com/tags/teamwork/</loc>
+    <lastmod>2023-04-15T11:11:06-04:00</lastmod>
+  </url><url>
+    <loc>https://jessejaggars.com/tags/btrfs/</loc>
+    <lastmod>2021-04-15T18:46:22-04:00</lastmod>
   </url><url>
     <loc>https://jessejaggars.com/post/btrfs-is-awesome/</loc>
     <lastmod>2021-04-15T18:46:22-04:00</lastmod>
   </url><url>
+    <loc>https://jessejaggars.com/tags/filesystems/</loc>
+    <lastmod>2021-04-15T18:46:22-04:00</lastmod>
+  </url><url>
+    <loc>https://jessejaggars.com/tags/linux/</loc>
+    <lastmod>2021-04-15T18:46:22-04:00</lastmod>
+  </url><url>
+    <loc>https://jessejaggars.com/tags/storage/</loc>
+    <lastmod>2021-04-15T18:46:22-04:00</lastmod>
+  </url><url>
+    <loc>https://jessejaggars.com/tags/covid/</loc>
+    <lastmod>2021-04-11T10:11:45-04:00</lastmod>
+  </url><url>
+    <loc>https://jessejaggars.com/tags/mental-health/</loc>
+    <lastmod>2021-04-11T10:11:45-04:00</lastmod>
+  </url><url>
+    <loc>https://jessejaggars.com/tags/pandemic/</loc>
+    <lastmod>2021-04-11T10:11:45-04:00</lastmod>
+  </url><url>
+    <loc>https://jessejaggars.com/tags/personal/</loc>
+    <lastmod>2021-04-11T10:11:45-04:00</lastmod>
+  </url><url>
     <loc>https://jessejaggars.com/post/post-pandemic-anxiety/</loc>
     <lastmod>2021-04-11T10:11:45-04:00</lastmod>
   </url><url>
-    <loc>https://jessejaggars.com/tags/covid/</loc>
-    <lastmod>2021-04-09T08:18:12-04:00</lastmod>
-  </url><url>
-    <loc>https://jessejaggars.com/tags/</loc>
-    <lastmod>2021-04-09T08:18:12-04:00</lastmod>
+    <loc>https://jessejaggars.com/tags/social-anxiety/</loc>
+    <lastmod>2021-04-11T10:11:45-04:00</lastmod>
   </url><url>
     <loc>https://jessejaggars.com/post/try-again/</loc>
+    <lastmod>2021-04-09T08:18:12-04:00</lastmod>
+  </url><url>
+    <loc>https://jessejaggars.com/tags/vaccine/</loc>
     <lastmod>2021-04-09T08:18:12-04:00</lastmod>
   </url><url>
     <loc>https://jessejaggars.com/post/denied/</loc>
     <lastmod>2021-04-07T12:50:46-04:00</lastmod>
   </url><url>
+    <loc>https://jessejaggars.com/tags/healthcare/</loc>
+    <lastmod>2021-04-07T12:50:46-04:00</lastmod>
+  </url><url>
     <loc>https://jessejaggars.com/post/all-the-things/</loc>
+    <lastmod>2021-04-06T16:29:13-04:00</lastmod>
+  </url><url>
+    <loc>https://jessejaggars.com/tags/communication/</loc>
+    <lastmod>2021-04-06T16:29:13-04:00</lastmod>
+  </url><url>
+    <loc>https://jessejaggars.com/tags/knowledge-sharing/</loc>
+    <lastmod>2021-04-06T16:29:13-04:00</lastmod>
+  </url><url>
+    <loc>https://jessejaggars.com/tags/teaching/</loc>
     <lastmod>2021-04-06T16:29:13-04:00</lastmod>
   </url><url>
     <loc>https://jessejaggars.com/post/pfz2/</loc>

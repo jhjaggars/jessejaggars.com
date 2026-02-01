@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-us" xml:base="https://jessejaggars.com/">
+    <title>Publications tagged &#34;Engineering-Practices&#34; - Jesse Jaggars</title>
+    <subtitle type="html"><![CDATA[Personal blog and writings by Jesse Jaggars]]></subtitle>
+    <link href="/tags/engineering-practices/" rel="alternate" type="text/html" title="html" />
+    <link href="/tags/engineering-practices/index.xml" rel="alternate" type="application/rss+xml" title="rss" />
+    <icon>https://jessejaggars.com/img/open-graph-logo_hu_cfda06ea0adc9739.png</icon>
+    <logo>https://jessejaggars.com/img/open-graph-logo_hu_cfda06ea0adc9739.png</logo>
+    <author>
+        <name>Jesse Jaggars</name>
+        
+    </author>
+    <generator uri="https://gohugo.io" version="0.155.1">Hugo</generator>
+    <updated>2026-01-31T09:52:20-05:00</updated>
+    <id>urn:uuid:b2362c22-054c-535b-99c9-b395b56b8397</id>
+    <entry>
+        
+        <category term="post" />
+        
+            
+            <category term="Software-Development" x="y" />
+            
+        
+            
+            <category term="Pair-Programming" x="y" />
+            
+        
+            
+            <category term="Collaboration" x="y" />
+            
+        
+            
+            <category term="Engineering-Practices" x="y" />
+            
+        
+            
+            <category term="Teamwork" x="y" />
+            
+        
+        <link rel="alternate" type="type/html" href="https://jessejaggars.com/post/pairing/?utm_source=atom_feed" />
+        <title type="html"><![CDATA[Pairing]]></title>
+        
+        
+        
+        <published>2023-04-15T11:11:06-04:00</published>
+        <updated>2023-04-15T11:11:06-04:00</updated>
+        <id>urn:uuid:afdca693-a8b5-5fdd-a955-fb6039a18a2b</id>
+        
+        <summary type="html"><![CDATA[<p>For the past few years I have drifted away from working on software regularly
+in my day job.  My new role gives me an opportunity to work on code regularly
+again so I&rsquo;ve been looking for reasonable projects to jump into.  There is no
+shortage of work, but I want to make sure that I don&rsquo;t get too much into the
+critical path since I won&rsquo;t be able to devote my full attention to working on a
+single task for long.</p>]]></summary>
+    </entry>
+</feed>

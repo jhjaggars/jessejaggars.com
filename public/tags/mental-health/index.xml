@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-us" xml:base="https://jessejaggars.com/">
+    <title>Publications tagged &#34;Mental-Health&#34; - Jesse Jaggars</title>
+    <subtitle type="html"><![CDATA[Personal blog and writings by Jesse Jaggars]]></subtitle>
+    <link href="/tags/mental-health/" rel="alternate" type="text/html" title="html" />
+    <link href="/tags/mental-health/index.xml" rel="alternate" type="application/rss+xml" title="rss" />
+    <icon>https://jessejaggars.com/img/open-graph-logo_hu_cfda06ea0adc9739.png</icon>
+    <logo>https://jessejaggars.com/img/open-graph-logo_hu_cfda06ea0adc9739.png</logo>
+    <author>
+        <name>Jesse Jaggars</name>
+        
+    </author>
+    <generator uri="https://gohugo.io" version="0.155.1">Hugo</generator>
+    <updated>2026-01-31T09:52:20-05:00</updated>
+    <id>urn:uuid:b2362c22-054c-535b-99c9-b395b56b8397</id>
+    <entry>
+        
+        <category term="post" />
+        
+            
+            <category term="Covid" x="y" />
+            
+        
+            
+            <category term="Mental-Health" x="y" />
+            
+        
+            
+            <category term="Pandemic" x="y" />
+            
+        
+            
+            <category term="Personal" x="y" />
+            
+        
+            
+            <category term="Social-Anxiety" x="y" />
+            
+        
+        <link rel="alternate" type="type/html" href="https://jessejaggars.com/post/post-pandemic-anxiety/?utm_source=atom_feed" />
+        <title type="html"><![CDATA[Post Pandemic Anxiety]]></title>
+        
+        
+        
+            <link href="https://jessejaggars.com/post/try-again/?utm_source=atom_feed" rel="related" type="text/html" title="Try Again" />
+        
+            <link href="https://jessejaggars.com/post/denied/?utm_source=atom_feed" rel="related" type="text/html" title="Denied" />
+        
+            <link href="https://jessejaggars.com/post/pfz2/?utm_source=atom_feed" rel="related" type="text/html" title="Pfizer dose #2 incoming" />
+        
+        <published>2021-04-11T10:11:45-04:00</published>
+        <updated>2021-04-11T10:11:45-04:00</updated>
+        <id>urn:uuid:32a41eb3-be67-5891-7996-87359220de90</id>
+        
+        <summary type="html"><![CDATA[<p>I got my second dose of the Pfizer-BioNTech COVID-19 vaccine on Friday.
+The trip was slightly annoying, but ultimately less frustrating than the
+first shot.  I&rsquo;ve been having mild side-effects which isn&rsquo;t really
+noteworthy, but some folks like to keep score I guess.</p>
+<p>As I was making the journey I spent some time thinking about &lsquo;going back
+to normal&rsquo;. And while I know that&rsquo;s not a good description of what to
+expect, it still helped me into a more anxious state of mind.  I <em>enjoy</em>
+being a bit of a hermit.  For the past year or so, it has been more
+socially acceptable to stay in and avoid typical social interactions.</p>]]></summary>
+    </entry>
+</feed>

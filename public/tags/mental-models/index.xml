@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-us" xml:base="https://jessejaggars.com/">
+    <title>Publications tagged &#34;Mental-Models&#34; - Jesse Jaggars</title>
+    <subtitle type="html"><![CDATA[Personal blog and writings by Jesse Jaggars]]></subtitle>
+    <link href="/tags/mental-models/" rel="alternate" type="text/html" title="html" />
+    <link href="/tags/mental-models/index.xml" rel="alternate" type="application/rss+xml" title="rss" />
+    <icon>https://jessejaggars.com/img/open-graph-logo_hu_cfda06ea0adc9739.png</icon>
+    <logo>https://jessejaggars.com/img/open-graph-logo_hu_cfda06ea0adc9739.png</logo>
+    <author>
+        <name>Jesse Jaggars</name>
+        
+    </author>
+    <generator uri="https://gohugo.io" version="0.155.1">Hugo</generator>
+    <updated>2026-01-31T09:52:20-05:00</updated>
+    <id>urn:uuid:b2362c22-054c-535b-99c9-b395b56b8397</id>
+    <entry>
+        
+        <category term="post" />
+        
+            
+            <category term="Philosophy" x="y" />
+            
+        
+            
+            <category term="Attention" x="y" />
+            
+        
+            
+            <category term="Productivity" x="y" />
+            
+        
+            
+            <category term="Social-Media" x="y" />
+            
+        
+            
+            <category term="Essays" x="y" />
+            
+        
+            
+            <category term="Mental-Models" x="y" />
+            
+        
+        <link rel="alternate" type="type/html" href="https://jessejaggars.com/post/the-search-tax/?utm_source=atom_feed" />
+        <title type="html"><![CDATA[The Search Tax]]></title>
+        
+        
+        
+        <published>2026-01-31T09:52:20-05:00</published>
+        <updated>2026-01-31T09:52:20-05:00</updated>
+        <id>urn:uuid:4843d307-b107-5b08-a910-56a650463965</id>
+        
+        <summary type="html"><![CDATA[<p>Do you ever reach the end of the day and wish you had spent your attention differently?</p>
+<p>I have these days often. I remember as a kid hearing variations of the phrase &ldquo;57 channels and nothin&rsquo; on&rdquo;, often with a larger number than &ldquo;the Boss&rdquo; originally wrote about in 1992. It often referred to the abundance of television channels available via satellite, but when you would sit down to find something to watch, nothing would pique your interest. I was watching a video from Hank Green today that put a couple of small ideas in my head that made me think a little more deeply about why these feelings are more persistent. I thought of an analogy and a set of vocabulary that helps clarify what I feel are the parts of the problem and how they interact.</p>]]></summary>
+    </entry>
+</feed>

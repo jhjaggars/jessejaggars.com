@@ -2,6 +2,7 @@
 title: "The Search Tax"
 date: 2026-01-31T09:52:20-05:00
 draft: false
+tags: ["philosophy", "attention", "productivity", "social-media", "essays", "mental-models"]
 ---
 Do you ever reach the end of the day and wish you had spent your attention differently?
 

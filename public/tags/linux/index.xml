@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-us" xml:base="https://jessejaggars.com/">
+    <title>Publications tagged &#34;Linux&#34; - Jesse Jaggars</title>
+    <subtitle type="html"><![CDATA[Personal blog and writings by Jesse Jaggars]]></subtitle>
+    <link href="/tags/linux/" rel="alternate" type="text/html" title="html" />
+    <link href="/tags/linux/index.xml" rel="alternate" type="application/rss+xml" title="rss" />
+    <icon>https://jessejaggars.com/img/open-graph-logo_hu_cfda06ea0adc9739.png</icon>
+    <logo>https://jessejaggars.com/img/open-graph-logo_hu_cfda06ea0adc9739.png</logo>
+    <author>
+        <name>Jesse Jaggars</name>
+        
+    </author>
+    <generator uri="https://gohugo.io" version="0.155.1">Hugo</generator>
+    <updated>2026-01-31T09:52:20-05:00</updated>
+    <id>urn:uuid:b2362c22-054c-535b-99c9-b395b56b8397</id>
+    <entry>
+        
+        <category term="post" />
+        
+            
+            <category term="Btrfs" x="y" />
+            
+        
+            
+            <category term="Linux" x="y" />
+            
+        
+            
+            <category term="Filesystems" x="y" />
+            
+        
+            
+            <category term="Storage" x="y" />
+            
+        
+        <link rel="alternate" type="type/html" href="https://jessejaggars.com/post/btrfs-is-awesome/?utm_source=atom_feed" />
+        <title type="html"><![CDATA[Btrfs Is Awesome]]></title>
+        
+        
+        
+        <published>2021-04-15T18:46:22-04:00</published>
+        <updated>2021-04-15T18:46:22-04:00</updated>
+        <id>urn:uuid:5d92d31d-0259-5f08-89ba-5a60c3140e2b</id>
+        
+        <summary type="html"><![CDATA[<p>I just had a really enjoyable software experience.  Without explaining <em>how</em> I
+got into this situation, let me just explain the starting conditions.</p>
+<p>I have a 1TB nvme disk in my system and had two btrfs partitions, <code>/</code>
+and <code>/home</code>.  On this same system I have a handful of other partitions
+to enable dual-booting.  The layout was something like this:</p>
+<pre tabindex="0"><code>[[ntfs      512GB].....................[/home 64GB][/    64GB]]
+</code></pre><p>And I wanted a layout more like this:</p>]]></summary>
+    </entry>
+</feed>

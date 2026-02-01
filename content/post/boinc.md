@@ -2,6 +2,7 @@
 title: "BOINC"
 date: 2024-08-11T15:38:28-04:00
 draft: false
+tags: ["kubernetes", "containerization", "distributed-computing", "homelab", "monitoring", "docker"]
 ---
 
 My friend Adam was telling me about [World Community Grid](https://www.worldcommunitygrid.org) the other day, which is a program for performing distributed research projects by allowing anyone to donate otherwise unused computing power to the program.  It reminds me of [distributed.net](https://distributed.net), with arguably nobler causes behind the project.  I have a good chunk of unused cpu and gpu capacity laying around so I decided I'd set up the [boinc client](https://boinc.berkeley.edu/) on my homelab.

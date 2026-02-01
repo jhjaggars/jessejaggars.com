@@ -2,6 +2,7 @@
 title: "Pairing"
 date: 2023-04-15T11:11:06-04:00
 draft: false
+tags: ["software-development", "pair-programming", "collaboration", "engineering-practices", "teamwork"]
 ---
 
 For the past few years I have drifted away from working on software regularly

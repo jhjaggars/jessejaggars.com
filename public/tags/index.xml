@@ -17,14 +17,374 @@
         
         <category term="tags" />
         
+        <link rel="alternate" type="type/html" href="https://jessejaggars.com/tags/attention/?utm_source=atom_feed" />
+        <title type="html"><![CDATA[Attention]]></title>
+        
+        
+        
+        <published>2026-01-31T09:52:20-05:00</published>
+        <updated>2026-01-31T09:52:20-05:00</updated>
+        <id>urn:uuid:e99eea94-8974-585e-c9bf-23c50d2be5cb</id>
+        
+        <summary type="html"><![CDATA[]]></summary>
+    </entry>
+    <entry>
+        
+        <category term="tags" />
+        
+        <link rel="alternate" type="type/html" href="https://jessejaggars.com/tags/essays/?utm_source=atom_feed" />
+        <title type="html"><![CDATA[Essays]]></title>
+        
+        
+        
+        <published>2026-01-31T09:52:20-05:00</published>
+        <updated>2026-01-31T09:52:20-05:00</updated>
+        <id>urn:uuid:117d85cb-f6b1-50d2-99f9-a5bbaabbe060</id>
+        
+        <summary type="html"><![CDATA[]]></summary>
+    </entry>
+    <entry>
+        
+        <category term="tags" />
+        
+        <link rel="alternate" type="type/html" href="https://jessejaggars.com/tags/mental-models/?utm_source=atom_feed" />
+        <title type="html"><![CDATA[Mental-Models]]></title>
+        
+        
+        
+        <published>2026-01-31T09:52:20-05:00</published>
+        <updated>2026-01-31T09:52:20-05:00</updated>
+        <id>urn:uuid:a952d46d-0171-5b7d-39d0-2c0306d5bd4c</id>
+        
+        <summary type="html"><![CDATA[]]></summary>
+    </entry>
+    <entry>
+        
+        <category term="tags" />
+        
+        <link rel="alternate" type="type/html" href="https://jessejaggars.com/tags/philosophy/?utm_source=atom_feed" />
+        <title type="html"><![CDATA[Philosophy]]></title>
+        
+        
+        
+        <published>2026-01-31T09:52:20-05:00</published>
+        <updated>2026-01-31T09:52:20-05:00</updated>
+        <id>urn:uuid:e40cb654-ce8b-5748-991f-249ea49b0b32</id>
+        
+        <summary type="html"><![CDATA[]]></summary>
+    </entry>
+    <entry>
+        
+        <category term="tags" />
+        
+        <link rel="alternate" type="type/html" href="https://jessejaggars.com/tags/productivity/?utm_source=atom_feed" />
+        <title type="html"><![CDATA[Productivity]]></title>
+        
+        
+        
+        <published>2026-01-31T09:52:20-05:00</published>
+        <updated>2026-01-31T09:52:20-05:00</updated>
+        <id>urn:uuid:30ef5559-9d01-5744-3900-8cfaf48e8c64</id>
+        
+        <summary type="html"><![CDATA[]]></summary>
+    </entry>
+    <entry>
+        
+        <category term="tags" />
+        
+        <link rel="alternate" type="type/html" href="https://jessejaggars.com/tags/social-media/?utm_source=atom_feed" />
+        <title type="html"><![CDATA[Social-Media]]></title>
+        
+        
+        
+        <published>2026-01-31T09:52:20-05:00</published>
+        <updated>2026-01-31T09:52:20-05:00</updated>
+        <id>urn:uuid:4575d4cb-373a-51b9-e974-f18c4d231882</id>
+        
+        <summary type="html"><![CDATA[]]></summary>
+    </entry>
+    <entry>
+        
+        <category term="tags" />
+        
+        <link rel="alternate" type="type/html" href="https://jessejaggars.com/tags/containerization/?utm_source=atom_feed" />
+        <title type="html"><![CDATA[Containerization]]></title>
+        
+        
+        
+        <published>2024-08-11T15:38:28-04:00</published>
+        <updated>2024-08-11T15:38:28-04:00</updated>
+        <id>urn:uuid:e89e3868-1656-50e8-a9da-7473d92d41ea</id>
+        
+        <summary type="html"><![CDATA[]]></summary>
+    </entry>
+    <entry>
+        
+        <category term="tags" />
+        
+        <link rel="alternate" type="type/html" href="https://jessejaggars.com/tags/distributed-computing/?utm_source=atom_feed" />
+        <title type="html"><![CDATA[Distributed-Computing]]></title>
+        
+        
+        
+        <published>2024-08-11T15:38:28-04:00</published>
+        <updated>2024-08-11T15:38:28-04:00</updated>
+        <id>urn:uuid:e93aa038-6973-5f98-69a2-a590d50fed17</id>
+        
+        <summary type="html"><![CDATA[]]></summary>
+    </entry>
+    <entry>
+        
+        <category term="tags" />
+        
+        <link rel="alternate" type="type/html" href="https://jessejaggars.com/tags/docker/?utm_source=atom_feed" />
+        <title type="html"><![CDATA[Docker]]></title>
+        
+        
+        
+        <published>2024-08-11T15:38:28-04:00</published>
+        <updated>2024-08-11T15:38:28-04:00</updated>
+        <id>urn:uuid:5f116a84-33ae-5013-a918-a3092707b679</id>
+        
+        <summary type="html"><![CDATA[]]></summary>
+    </entry>
+    <entry>
+        
+        <category term="tags" />
+        
+        <link rel="alternate" type="type/html" href="https://jessejaggars.com/tags/homelab/?utm_source=atom_feed" />
+        <title type="html"><![CDATA[Homelab]]></title>
+        
+        
+        
+        <published>2024-08-11T15:38:28-04:00</published>
+        <updated>2024-08-11T15:38:28-04:00</updated>
+        <id>urn:uuid:d31a97dd-6650-5cea-69f1-f82e36b136c6</id>
+        
+        <summary type="html"><![CDATA[]]></summary>
+    </entry>
+    <entry>
+        
+        <category term="tags" />
+        
+        <link rel="alternate" type="type/html" href="https://jessejaggars.com/tags/kubernetes/?utm_source=atom_feed" />
+        <title type="html"><![CDATA[Kubernetes]]></title>
+        
+        
+        
+        <published>2024-08-11T15:38:28-04:00</published>
+        <updated>2024-08-11T15:38:28-04:00</updated>
+        <id>urn:uuid:05565cb1-81f1-581d-39c1-d1b821d2f705</id>
+        
+        <summary type="html"><![CDATA[]]></summary>
+    </entry>
+    <entry>
+        
+        <category term="tags" />
+        
+        <link rel="alternate" type="type/html" href="https://jessejaggars.com/tags/monitoring/?utm_source=atom_feed" />
+        <title type="html"><![CDATA[Monitoring]]></title>
+        
+        
+        
+        <published>2024-08-11T15:38:28-04:00</published>
+        <updated>2024-08-11T15:38:28-04:00</updated>
+        <id>urn:uuid:113d55bb-9196-5c64-4907-f2555a7d52f5</id>
+        
+        <summary type="html"><![CDATA[]]></summary>
+    </entry>
+    <entry>
+        
+        <category term="tags" />
+        
+        <link rel="alternate" type="type/html" href="https://jessejaggars.com/tags/collaboration/?utm_source=atom_feed" />
+        <title type="html"><![CDATA[Collaboration]]></title>
+        
+        
+        
+        <published>2023-04-15T11:11:06-04:00</published>
+        <updated>2023-04-15T11:11:06-04:00</updated>
+        <id>urn:uuid:70468507-d904-559a-9995-1fbbba26ccaf</id>
+        
+        <summary type="html"><![CDATA[]]></summary>
+    </entry>
+    <entry>
+        
+        <category term="tags" />
+        
+        <link rel="alternate" type="type/html" href="https://jessejaggars.com/tags/engineering-practices/?utm_source=atom_feed" />
+        <title type="html"><![CDATA[Engineering-Practices]]></title>
+        
+        
+        
+        <published>2023-04-15T11:11:06-04:00</published>
+        <updated>2023-04-15T11:11:06-04:00</updated>
+        <id>urn:uuid:026b33eb-5c28-5ed2-6909-3c5cf25d2c60</id>
+        
+        <summary type="html"><![CDATA[]]></summary>
+    </entry>
+    <entry>
+        
+        <category term="tags" />
+        
+        <link rel="alternate" type="type/html" href="https://jessejaggars.com/tags/pair-programming/?utm_source=atom_feed" />
+        <title type="html"><![CDATA[Pair-Programming]]></title>
+        
+        
+        
+        <published>2023-04-15T11:11:06-04:00</published>
+        <updated>2023-04-15T11:11:06-04:00</updated>
+        <id>urn:uuid:95d0aa51-eb4b-5e88-79a1-89e6ad1489da</id>
+        
+        <summary type="html"><![CDATA[]]></summary>
+    </entry>
+    <entry>
+        
+        <category term="tags" />
+        
+        <link rel="alternate" type="type/html" href="https://jessejaggars.com/tags/software-development/?utm_source=atom_feed" />
+        <title type="html"><![CDATA[Software-Development]]></title>
+        
+        
+        
+        <published>2023-04-15T11:11:06-04:00</published>
+        <updated>2023-04-15T11:11:06-04:00</updated>
+        <id>urn:uuid:f6711aed-ef96-5e31-49e8-2ebffe95f712</id>
+        
+        <summary type="html"><![CDATA[]]></summary>
+    </entry>
+    <entry>
+        
+        <category term="tags" />
+        
+        <link rel="alternate" type="type/html" href="https://jessejaggars.com/tags/teamwork/?utm_source=atom_feed" />
+        <title type="html"><![CDATA[Teamwork]]></title>
+        
+        
+        
+        <published>2023-04-15T11:11:06-04:00</published>
+        <updated>2023-04-15T11:11:06-04:00</updated>
+        <id>urn:uuid:d926aaa8-dbe4-55e9-69b8-8e460d6eee94</id>
+        
+        <summary type="html"><![CDATA[]]></summary>
+    </entry>
+    <entry>
+        
+        <category term="tags" />
+        
+        <link rel="alternate" type="type/html" href="https://jessejaggars.com/tags/btrfs/?utm_source=atom_feed" />
+        <title type="html"><![CDATA[Btrfs]]></title>
+        
+        
+        
+        <published>2021-04-15T18:46:22-04:00</published>
+        <updated>2021-04-15T18:46:22-04:00</updated>
+        <id>urn:uuid:2af912d0-4dfd-5dea-4925-00fd3330d7cc</id>
+        
+        <summary type="html"><![CDATA[]]></summary>
+    </entry>
+    <entry>
+        
+        <category term="tags" />
+        
+        <link rel="alternate" type="type/html" href="https://jessejaggars.com/tags/filesystems/?utm_source=atom_feed" />
+        <title type="html"><![CDATA[Filesystems]]></title>
+        
+        
+        
+        <published>2021-04-15T18:46:22-04:00</published>
+        <updated>2021-04-15T18:46:22-04:00</updated>
+        <id>urn:uuid:f64129a5-ddd1-5775-092d-a82832238724</id>
+        
+        <summary type="html"><![CDATA[]]></summary>
+    </entry>
+    <entry>
+        
+        <category term="tags" />
+        
+        <link rel="alternate" type="type/html" href="https://jessejaggars.com/tags/linux/?utm_source=atom_feed" />
+        <title type="html"><![CDATA[Linux]]></title>
+        
+        
+        
+        <published>2021-04-15T18:46:22-04:00</published>
+        <updated>2021-04-15T18:46:22-04:00</updated>
+        <id>urn:uuid:df3f6504-0513-5b55-6957-30f380ba9450</id>
+        
+        <summary type="html"><![CDATA[]]></summary>
+    </entry>
+    <entry>
+        
+        <category term="tags" />
+        
+        <link rel="alternate" type="type/html" href="https://jessejaggars.com/tags/storage/?utm_source=atom_feed" />
+        <title type="html"><![CDATA[Storage]]></title>
+        
+        
+        
+        <published>2021-04-15T18:46:22-04:00</published>
+        <updated>2021-04-15T18:46:22-04:00</updated>
+        <id>urn:uuid:9cc9d40a-1c19-5918-2952-c6a797901e5d</id>
+        
+        <summary type="html"><![CDATA[]]></summary>
+    </entry>
+    <entry>
+        
+        <category term="tags" />
+        
         <link rel="alternate" type="type/html" href="https://jessejaggars.com/tags/covid/?utm_source=atom_feed" />
         <title type="html"><![CDATA[Covid]]></title>
         
         
         
-        <published>2021-04-09T08:18:12-04:00</published>
-        <updated>2021-04-09T08:18:12-04:00</updated>
+        <published>2021-04-11T10:11:45-04:00</published>
+        <updated>2021-04-11T10:11:45-04:00</updated>
         <id>urn:uuid:8e59f4f3-67cf-58e9-097c-2db750f005d8</id>
+        
+        <summary type="html"><![CDATA[]]></summary>
+    </entry>
+    <entry>
+        
+        <category term="tags" />
+        
+        <link rel="alternate" type="type/html" href="https://jessejaggars.com/tags/mental-health/?utm_source=atom_feed" />
+        <title type="html"><![CDATA[Mental-Health]]></title>
+        
+        
+        
+        <published>2021-04-11T10:11:45-04:00</published>
+        <updated>2021-04-11T10:11:45-04:00</updated>
+        <id>urn:uuid:bc15b3b2-31c4-53dd-0940-b9fda4a39e8f</id>
+        
+        <summary type="html"><![CDATA[]]></summary>
+    </entry>
+    <entry>
+        
+        <category term="tags" />
+        
+        <link rel="alternate" type="type/html" href="https://jessejaggars.com/tags/pandemic/?utm_source=atom_feed" />
+        <title type="html"><![CDATA[Pandemic]]></title>
+        
+        
+        
+        <published>2021-04-11T10:11:45-04:00</published>
+        <updated>2021-04-11T10:11:45-04:00</updated>
+        <id>urn:uuid:9402b2bf-80c1-5b1a-f9ff-d5f0b3261896</id>
+        
+        <summary type="html"><![CDATA[]]></summary>
+    </entry>
+    <entry>
+        
+        <category term="tags" />
+        
+        <link rel="alternate" type="type/html" href="https://jessejaggars.com/tags/personal/?utm_source=atom_feed" />
+        <title type="html"><![CDATA[Personal]]></title>
+        
+        
+        
+        <published>2021-04-11T10:11:45-04:00</published>
+        <updated>2021-04-11T10:11:45-04:00</updated>
+        <id>urn:uuid:123e9020-8d3d-5ee5-a944-eb190b1d240d</id>
         
         <summary type="html"><![CDATA[]]></summary>
     </entry>

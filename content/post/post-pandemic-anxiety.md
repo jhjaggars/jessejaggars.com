@@ -3,6 +3,7 @@ title: "Post Pandemic Anxiety"
 date: 2021-04-11T10:11:45-04:00
 description: "The end of an eternal snow day."
 draft: false
+tags: ["covid", "mental-health", "pandemic", "personal", "social-anxiety"]
 ---
 
 I got my second dose of the Pfizer-BioNTech COVID-19 vaccine on Friday.

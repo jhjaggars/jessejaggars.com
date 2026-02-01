@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-us" xml:base="https://jessejaggars.com/">
+    <title>Publications tagged &#34;Knowledge-Sharing&#34; - Jesse Jaggars</title>
+    <subtitle type="html"><![CDATA[Personal blog and writings by Jesse Jaggars]]></subtitle>
+    <link href="/tags/knowledge-sharing/" rel="alternate" type="text/html" title="html" />
+    <link href="/tags/knowledge-sharing/index.xml" rel="alternate" type="application/rss+xml" title="rss" />
+    <icon>https://jessejaggars.com/img/open-graph-logo_hu_cfda06ea0adc9739.png</icon>
+    <logo>https://jessejaggars.com/img/open-graph-logo_hu_cfda06ea0adc9739.png</logo>
+    <author>
+        <name>Jesse Jaggars</name>
+        
+    </author>
+    <generator uri="https://gohugo.io" version="0.155.1">Hugo</generator>
+    <updated>2026-01-31T09:52:20-05:00</updated>
+    <id>urn:uuid:b2362c22-054c-535b-99c9-b395b56b8397</id>
+    <entry>
+        
+        <category term="post" />
+        
+            
+            <category term="Communication" x="y" />
+            
+        
+            
+            <category term="Teaching" x="y" />
+            
+        
+            
+            <category term="Knowledge-Sharing" x="y" />
+            
+        
+        <link rel="alternate" type="type/html" href="https://jessejaggars.com/post/all-the-things/?utm_source=atom_feed" />
+        <title type="html"><![CDATA[All the Things]]></title>
+        
+        
+        
+        <published>2021-04-06T16:29:13-04:00</published>
+        <updated>2021-04-06T16:29:13-04:00</updated>
+        <id>urn:uuid:6e68bbbc-1107-5f4f-191d-bc0f18be4016</id>
+        
+        <summary type="html"><![CDATA[<p>For as long as I can remember, I&rsquo;ve suffered from a condition where I assume
+that if <em>I</em> know something, everyone else must know it too.</p>
+<p>I think it stems from the feeling that I&rsquo;m not especially knowledgeable, nor do
+I think I&rsquo;ve had a novel existence (no really, I haven&rsquo;t).</p>
+<p>In fact, as I&rsquo;ve aged I&rsquo;ve come to relize that I know less and less, by the
+second it seems!  Perhaps, because of that I still fall into the trap of
+assuming others benefit from a shared context with me.</p>]]></summary>
+    </entry>
+</feed>

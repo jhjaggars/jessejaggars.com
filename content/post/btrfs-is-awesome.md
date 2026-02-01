@@ -3,6 +3,7 @@ title: "Btrfs Is Awesome"
 date: 2021-04-15T18:46:22-04:00
 draft: false
 description: "I resized my btrfs partition and it was fun!"
+tags: ["btrfs", "linux", "filesystems", "storage"]
 ---
 
 I just had a really enjoyable software experience.  Without explaining _how_ I

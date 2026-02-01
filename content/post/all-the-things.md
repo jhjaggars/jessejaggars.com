@@ -3,6 +3,7 @@ title: "All the Things"
 date: 2021-04-06T16:29:13-04:00
 description: "People know different things than one another. News at 11."
 draft: false
+tags: ["communication", "teaching", "knowledge-sharing"]
 ---
 For as long as I can remember, I've suffered from a condition where I assume
 that if *I* know something, everyone else must know it too.
