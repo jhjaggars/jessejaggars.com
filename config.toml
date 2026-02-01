@@ -1,6 +1,7 @@
 baseURL = "https://jessejaggars.com/"
 languageCode = "en-us"
 title = "Jesse Jaggars"
+theme = "gohugo-theme-ed"
 
 [params]
   description = 'Personal blog and writings by Jesse Jaggars'
