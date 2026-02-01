@@ -113,6 +113,51 @@ When trying new themes:
 
 ## Content Management
 
+### Creating New Posts
+
 - Blog posts go in `content/post/`
 - Use Hugo front matter for metadata (title, date, tags, etc.)
-- Build and commit `public/` after adding new content
+
+### Tagging Workflow
+
+**IMPORTANT:** Before publishing a new post (setting `draft: false`), suggest appropriate tags:
+
+1. **Review the post content** to understand the topic and themes
+2. **Check existing tags** first by looking at other posts in `content/post/*.md` or browsing `/public/tags/`
+3. **Prefer existing tags** when applicable to maintain consistency and avoid tag fragmentation
+4. **Suggest 3-6 relevant tags** that accurately categorize the content
+5. **Add tags to front matter** in the format:
+   ```yaml
+   tags: ["tag1", "tag2", "tag3"]
+   ```
+
+#### Existing Tag Categories
+
+Current tags in use (as of latest update):
+- **Technical/Infrastructure:** kubernetes, docker, containerization, distributed-computing, homelab, monitoring, btrfs, linux, filesystems, storage
+- **Software Development:** software-development, pair-programming, collaboration, engineering-practices, teamwork
+- **COVID-related:** covid, vaccine, pandemic, healthcare
+- **Communication/Learning:** communication, teaching, knowledge-sharing
+- **Personal/Philosophy:** philosophy, attention, productivity, social-media, essays, mental-models, mental-health, social-anxiety, personal
+
+#### Tagging Guidelines
+
+- Use lowercase, hyphenated tags (e.g., `pair-programming`, not `Pair Programming`)
+- Be specific but not overly granular (e.g., use `kubernetes` not `k8s-statefulsets`)
+- Balance between general categorization and specific topics
+- Aim for discoverability - think about what readers might search for
+- When in doubt, check similar existing posts for tag inspiration
+
+### Publishing Workflow
+
+After creating or updating content:
+
+1. **Review and add tags** (see Tagging Workflow above)
+2. **Set `draft: false`** in front matter
+3. **Build the site:** `hugo`
+4. **Commit changes including `public/`:**
+   ```bash
+   git add content/post/ public/
+   git commit -m "add new post: [post-title]"
+   ```
+5. **Push to GitHub:** `git push`
